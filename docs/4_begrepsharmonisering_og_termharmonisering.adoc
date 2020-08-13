@@ -1,0 +1,13 @@
+== 4 Begrepsharmonisering og termharmonisering [[kap4]]
+
+Det kan oppstå behov for å harmonisere begreper og termer fra forskjellige fagområder i ett eller flere språk. Formålet med harmoniseringen er å minske eller fjerne mindre forskjeller mellom begreper eller termer som er nær beslektet med hverandre.
+
+=== 4.1 Harmonisering av begreper og begrepssystemer [[kap4.1]]
+
+Begrepsharmonisering innebærer alltid at forskjellige begrepssystemer sammenlignes. Et begrepssystem må aldri overføres direkte til et annet språk. Ved harmonisering skal alle begrepssystemer som foreligger, sammenlignes, uansett hvor de stammer fra, det vil si om de er standardisert internasjonalt, nasjonalt eller opprettet på andre måter. Harmonisering av begreper er en del av internasjonalt standardiseringsarbeid. Se ISO 860 for mer detaljerte opplysninger.
+
+=== 4.2 Harmonisering av termer og termsystemer [[kap4.2]]
+
+Det er verken mulig eller meningsfylt å harmonisere termer og termsystemer på forskjellige språk før begrepene er harmonisert. I harmoniseringsarbeidet er det viktig å ikke la seg forlede av termer som ligner hverandre i formen, for eksempel «falske venner». Et eksempel på falske venner er det engelske wrist (på norsk _håndledd_) og det norske _vrist_ (på engelsk instep).
+
+Ved termharmonisering skal ikke et språk påtvinges termdanningsmønstre som er fremmede for dets struktur. For å oppnå overensstemmelse mellom språk med hensyn til en term bør om mulig de samme kjennetegnene benyttes når termen dannes.
