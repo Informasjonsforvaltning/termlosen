@@ -1,0 +1,57 @@
+== 5 Trinnene i et terminologiprosjekt [[kap5]]
+
+Hovedtrinnene i et terminologiprosjekt:
+
+* vurdere behovene
+* bestemme målgruppen og avgrense fagområdet
+* identifisere begrepene
+* samle inn og registrere terminologiske data
+* utarbeide termliste
+* utarbeide begrepssystem og tegne begrepsdiagram
+* skrive definisjoner
+* velge eller danne termer
+* gå gjennom begrepsdiagrammene
+
+I praksis utføres mange av disse trinnene samtidig.
+
+I dette kapitlet gis det veiledning til grupper som skal utarbeide termlister. Alle underpunktene er ikke like aktuelle for alle typer terminologiarbeid som kan forekomme.
+
+
+=== 5.1 Arbeidsgruppe [[kap5.1]]
+
+Den ideelle terminologigruppen har fra fem til åtte deltakere. Hvis gruppen ikke har erfaring med systematisk terminologiarbeid, bør det opprettes kontakt med en erfaren terminolog som kan bistå gruppen. Arbeidet vil da gå raskere, og kvaliteten på resultatet vil bli bedre. Det bør om mulig arrangeres et innføringskurs i terminologiarbeid for alle deltakerne i arbeidsgruppen.
+
+=== 5.2 A vgrense fagområdet [[kap5.2]]
+
+Fagområdet må avgrenses nøye ut fra formålet med termlista og målgruppens behov. En slik avgrensing innebærer at fagområdet beskrives utførlig og deles inn i eventuelle underområder.
+
+=== 5.3 Kilder [[kap5.3]]
+
+Alt relevant materiale på fagområdet bør benyttes. Her kan man finne nyttige eksempler, illustrasjoner, begrepssystemer, termer og lignende. De viktigste typene dokumentasjon som bør undersøkes, er lover, forskrifter, retningslinjer, standarder, lærebøker, avhandlinger, tidsskrifter, bruksanvisninger, rapporter, ordlister, ordbøker, oppslagsverker, databaser o.a. For all dokumentasjon må det vurderes om den er relevant og til å stole på. Oversatt materiale bør brukes med forsiktighet.
+
+=== 5.4 Antall begreper [[kap5.4]]
+
+En terminologigruppe kan behandle bare et begrenset antall begreper. Det å arbeide med et for stort antall begreper fører lett til inkonsekvens og utelatelser og er dessuten svært tidkrevende. Erfaring har vist at dersom antallet begreper overstiger 200, bør et prosjekt som regel deles opp i delprosjekter som blir gjennomført samtidig eller etter tur.
+
+=== 5.5 Tidsplan [[kap5.5]]
+
+Det må utarbeides en detaljert tidsplan for prosjektet så tidlig som mulig. Den bør inneholde en oversikt over de forskjellige trinnene i prosjektet, en tidsramme for hvert trinn og en beskrivelse av hvilket ansvar deltakerne i arbeidsgruppen og andre innblandede har.
+
+=== 5.6 Samle inn og velge ut terminologiske data [[kap5.6]]
+
+Man må analysere kildematerialet (se <<kap5.3, 5.3>>) for å identifisere begreper som tilhører fagområdet. På dette stadiet bør ikke antallet begreper og termer som samles inn, begrenses for strengt. Kilden til de innsamlede dataene må angis tydelig. Se ISO 10241 for mer detaljerte opplysninger om registrering av terminologiske data.
+
+Følgende inndeling av begreper i fire kategorier kan tjene som rettesnor når man skal avgjøre om et begrep skal tas med eller ikke:
+
+. fagspesifikke begreper, det vil si begreper som tilhører det aktuelle fagområdet
+. fagoverskridende begreper, det vil si begreper som tilhører to eller flere fagområder
+. begreper som er lånt fra nærliggende fagområder
+. begreper som benyttes i allmennspråket
+
+Sluttresultatet bør i hovedsak inneholde fagspesifikke begreper (1) og bare et begrenset antall begreper fra kategori 2 og 3. Begreper fra allmennspråket (4) bør tas med bare i unntakstilfeller.
+
+=== 5.7 Begrepssystemer og definisjoner [[kap5.7]]
+
+De utvalgte begrepene skal struktureres i begrepssystemer slik at hvert begrep får en særskilt plass i et system. Det kan være fornuftig å begynne med de generiske relasjonene og deretter fortsette med de partitive og assosiative relasjonene. Oppgaven blir enklere om man benytter et diagram eller en systematisk oversikt som viser relasjonene mellom begrepene.
+
+De utvalgte begrepene skal defineres etter retningslinjene i kapittel 2. (Det fins ytterligere veiledning i de internasjonale standardene ISO 704, 860 og 10241.) I praksis skriver man ofte utkast til definisjoner samtidig som man utarbeider begrepssystemer. Dersom man utarbeider begrepssystemene først, er det vanlig at de gjennomgås på nytt når definisjonene blir skrevet. Den alminnelige regelen er at definisjonene skal være presise og lette å forstå. Dersom man benytter seg av definisjoner som allerede fins, må man være særlig påpasselig med ikke å gjenta feil og inkonsekvenser.

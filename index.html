@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="nn">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="description" content="Mal for bruk til nye spesifikasjoner som er laga i asciidoc.">
-<title>Spesifikasjonsmal</title>
+<meta name="description" content="Termlosen">
+<meta name="author" content="Kort innføring i begrepsanalyse og terminologiarbeid">
+<title>Termlosen</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -440,12 +441,90 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Spesifikasjonsmal</h1>
+<h1>Termlosen</h1>
+<div class="details">
+<span id="author" class="author">Kort innføring i begrepsanalyse og terminologiarbeid</span><br>
+<span id="revdate">Heidi Suonuuti</span>
+</div>
 <div id="toc" class="toc2">
-<div id="toctitle">Innholdsfortegnelse</div>
+<div id="toctitle">Innhald</div>
 <ul class="sectlevel1">
-<li><a href="#_forord">Forord</a></li>
-<li><a href="#_kapittel_1">Kapittel 1</a></li>
+<li><a href="#_forord_til_den_engelske_originalversjonen">Forord til den engelske originalversjonen</a></li>
+<li><a href="#_forord_til_andre_utgave_av_den_engelske_originalversjonen">Forord til andre utgave av den engelske originalversjonen</a></li>
+<li><a href="#_forord_til_den_norske_versjonen">Forord til den norske versjonen</a></li>
+<li><a href="#_innleiing">Innleiing</a></li>
+<li><a href="#kap1">1 Omgrepsanalyse</a>
+<ul class="sectlevel2">
+<li><a href="#kap1.1">1.1 Tilhøvet mellom referent, omgrep, definisjon og term</a></li>
+<li><a href="#kap1.2">1.2	Kjenneteikn</a></li>
+<li><a href="#kap1.3">1.3	Omgrepsinnhald og omgrepsomfang</a></li>
+<li><a href="#kap1.4">1.4	Omgrepssystem</a>
+<ul class="sectlevel3">
+<li><a href="#kap1.4.1">1.4.1 	Generiske relasjonar og omgrepssystem</a></li>
+<li><a href="#kap1.4.2">1.4.2 Partitive relasjonar og omgrepssystem</a></li>
+<li><a href="#kap1.4.3">1.4.3 Assosiative relasjonar og omgrepssystem</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#kap2">2 Definisjonar</a>
+<ul class="sectlevel2">
+<li><a href="#kap2.1">2.1 Typar definisjonar</a>
+<ul class="sectlevel3">
+<li><a href="#kap2.1.1">2.1.1 Innhaldsdefinisjonar</a></li>
+<li><a href="#kap2.1.2">2.1.2 Omfangsdefinisjonar</a></li>
+<li><a href="#kap2.2">2.2 Systematisk definisjon</a></li>
+</ul>
+</li>
+<li><a href="#kap2.3">2.3 Kor nøyaktig skal definisjonen vere?</a></li>
+<li><a href="#kap2.4">2.4 Utskiftingsprinsippet</a></li>
+<li><a href="#kap2.5">2.5 Feilaktige definisjonar</a>
+<ul class="sectlevel3">
+<li><a href="#kap2.5.1">2.5.1 Sirkeldefinisjonar</a></li>
+<li><a href="#kap2.5.2">2.5.2 Negative definisjonar</a></li>
+<li><a href="#kap2.5.3">2.5.3 Mangelfulle definisjonar</a></li>
+<li><a href="#kap2.5.4">2.5.4 Skjulte definisjonar inne i definisjonar</a></li>
+</ul>
+</li>
+<li><a href="#kap2.6">2.6 Figurar</a></li>
+</ul>
+</li>
+<li><a href="#kap3">3 Termer</a>
+<ul class="sectlevel2">
+<li><a href="#kap3.1">3.1 Typer termer</a></li>
+<li><a href="#kap3.2">3.2 Krav til hvordan termer velges ut og dannes</a></li>
+<li><a href="#kap3.3">3.3 Anbefalte, tillatte og frarådede termer</a></li>
+</ul>
+</li>
+<li><a href="#kap4">4 Begrepsharmonisering og termharmonisering</a>
+<ul class="sectlevel2">
+<li><a href="#kap4.1">4.1 Harmonisering av begreper og begrepssystemer</a></li>
+<li><a href="#kap4.2">4.2 Harmonisering av termer og termsystemer</a></li>
+</ul>
+</li>
+<li><a href="#kap5">5 Trinnene i et terminologiprosjekt</a>
+<ul class="sectlevel2">
+<li><a href="#kap5.1">5.1 Arbeidsgruppe</a></li>
+<li><a href="#kap5.2">5.2 A vgrense fagområdet</a></li>
+<li><a href="#kap5.3">5.3 Kilder</a></li>
+<li><a href="#kap5.4">5.4 Antall begreper</a></li>
+<li><a href="#kap5.5">5.5 Tidsplan</a></li>
+<li><a href="#kap5.6">5.6 Samle inn og velge ut terminologiske data</a></li>
+<li><a href="#kap5.7">5.7 Begrepssystemer og definisjoner</a></li>
+</ul>
+</li>
+<li><a href="#kap6">6 Presentasjon av terminologiske data (terminografi)</a>
+<ul class="sectlevel2">
+<li><a href="#kap6.1">6.1 Term og definisjon</a></li>
+<li><a href="#kap6.2">6.2 Termposten</a></li>
+<li><a href="#kap6.3">6.3 Termpostenes rekkefølge</a></li>
+<li><a href="#kap6.4">6.4 Datamaskinell støtte</a></li>
+</ul>
+</li>
+<li><a href="#_oversikt_over_anvendte_termer">Oversikt over anvendte termer</a></li>
+<li><a href="#_nordterms_organisasjoner">Nordterms organisasjoner</a></li>
+<li><a href="#_referanser_til_aktuelle_standarder">Referanser til aktuelle standarder</a></li>
+<li><a href="#_termleia">Termleia</a></li>
 </ul>
 </div>
 </div>
@@ -454,20 +533,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
+<img src="images/Sprakradet_logo.png" alt="Sprakradet logo" width="20%">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
 <img src="images/digitaliseringsdirektoratet.png" alt="digitaliseringsdirektoratet" width="50%">
 </div>
 </div>
 <div class="paragraph">
-<p>Publisert: 2020-03-05</p>
+<p><strong>Publisert</strong>: under publisering<br>
+<strong>Status</strong>: under publisering</p>
 </div>
 <div class="admonitionblock warning">
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-warning" title="Advarsel"></i>
+<i class="fa icon-warning" title="Åtvaring"></i>
 </td>
 <td class="content">
-Dette er mal-dokument for andre spesifikasjoner.
+Denne er under publisering, justeringer kan komme.
 </td>
 </tr>
 </table>
@@ -479,33 +564,1872 @@ Dette er mal-dokument for andre spesifikasjoner.
 <i class="fa icon-tip" title="Tips"></i>
 </td>
 <td class="content">
-Dette dokumentet kan også lastes ned <a href="document.pdf">som PDF</a>.
-Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangler eller lenker som ikke fungerer, ber vi om at man benytter versjonen tilgjengelig på nett for de aktuelle delene.
+<strong>Nedlasting av dokumentet</strong>:<br>
+Den trykte utgaven av Termlosen kan <a href="https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/">bestilles eller lastes ned som PDF fra Språkrådet</a>.<br>
+Denne nettutgaven kan også lastes ned <a href="document.pdf">som PDF</a>.
 </td>
 </tr>
+</table>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Merk"></i>
+</td>
+<td class="content">
+<strong>Innmelding av feil og mangler</strong>:<br>
+Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på <a href="https://github.com/Informasjonsforvaltning/termlosen/issues">Github Issues</a>. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Dette er en nettutgave av <a href="https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/">den trykte utgaven av Termlosen</a>. Sidereferanser i den trykte utgaven er beholdt i denne nettutgaven, men med <span class="line-through">gjennomstrekning</span> ev. kombinert med ny tekst i klammeparentes, f.eks. <code><span class="line-through">på side &#8230;&#8203;</span> [under &#8230;&#8203;]</code>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_forord_til_den_engelske_originalversjonen"><a class="anchor" href="#_forord_til_den_engelske_originalversjonen"></a>Forord til den engelske originalversjonen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Alle som arbeider med terminologi, for eksempel med å utarbeide en termliste, må vite hvor de kan finne svar på en rekke spørsmål, før de i det hele tatt kan begynne på selve arbeidet. Hvor begynner man, hvor finner man pålitelige kilder, og hva slags opplysninger skal man samle inn? Hvordan strukturerer og registrerer man opplysningene, og når er datamaskinen et nyttig hjelpemiddel? Hvordan skiller man de forskjellige språkene fra hverandre, hvordan skriver man definisjoner, og hvordan organiserer man hele arbeidsprosessen? Slike spørsmål dukker opp hver gang et terminologi­ prosjekt blir satt i gang, og derfor er det fornuftig å forsøke å benytte løsninger som allerede er utprøvd. De metodene som benyttes ved prosjektarbeid, egner seg godt også til terminologiarbeid. Til og med praktiske småting som volder bry i arbeidet, er ofte av en slik art at standardiserte metoder eller modeller kan være til hjelp. En oversikt over nyttige standarder er oppført <span class="line-through">på sidene 45–46</span>[under <a href="#_referanser_til_aktuelle_standarder">Referanser til aktuelle standarder</a>].</p>
+</div>
+<div class="paragraph">
+<p>Andre og mindre vanlige spørsmål gjelder kvaliteten på termlista. Ofte dukker ikke spørsmålet om kvalitet opp før mot slutten av terminologiprosjektet, eller først når termlista er gitt ut. For selv om en termsamling bygger på best mulige kilder, bør den ikke gis ut før den er bearbeidet. Det viktigste kjennetegnet på kvalitet i en term­ liste er indre sammenheng i innholdet. Det vil si at det må være klare relasjoner mellom begrepene, og det kommer til uttrykk i entydige definisjoner og termer som ikke motsier hverandre. En slik struktur oppnås bare når materialet utarbeides systematisk. Formålet med dette heftet er å gi en kort innføring i prinsippene og metodene for systematisk terminologiarbeid og vise hvordan de kan utnyttes i praksis. Heftet inneholder derfor ikke alle de opplysninger man trenger. Ytterligere opplysninger er imidlertid å finne i standardene nevnt ovenfor. De bør være obligatorisk lesning for dem som leder terminologiske arbeidsgrupper. Det som imidlertid er mest verdifullt i terminologiarbeid, er lang erfaring og praksis på området. Derfor kan en erfaren terminolog tilby uunnværlig hjelp til å overvinne de hindringene som uunngåelig dukker opp i alle terminologi­ prosjekter. Arbeidsgrupper som tar fatt på et terminologiprosjekt for første gang, oppfordres derfor innstendig til å ta kontakt med en erfaren terminolog når det er mulig.</p>
+</div>
+<div class="paragraph">
+<p>Selv om systematisk terminologiarbeid åpenbart bidrar til økt kvalitet, kan førsteinntrykket være at metoden er altfor komplisert, tidkrevende og kostbar. Det stemmer imidlertid ikke. Lang erfaring og statistikk fra tidligere prosjekter viser at bruk av terminologiske metoder faktisk fører til kortere prosjekttid og betydelig lavere totalkostnader så snart den første læringsterskelen er passert.</p>
+</div>
+<div class="paragraph">
+<p>Dette heftet er et sideprodukt av internasjonal standardisering. Det opprinnelige initiativet kom fra brukere som mente at de behøvde en kortfattet innføring i prinsippene og metodene for praktisk terminologiarbeid. En rekke høyt verdsatte kolleger og terminologi­ interesserte fageksperter fra Norge, Sverige, Finland, Canada og Østerrike har vært til stor hjelp for meg med nyttige og innsiktsfulle kommentarer. Jeg vil med dette takke dem alle sammen.</p>
+</div>
+<div class="paragraph">
+<p>Helsingfors i desember 1996</p>
+</div>
+<div class="paragraph">
+<p>Heidi Suonuuti</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_forord_til_andre_utgave_av_den_engelske_originalversjonen"><a class="anchor" href="#_forord_til_andre_utgave_av_den_engelske_originalversjonen"></a>Forord til andre utgave av den engelske originalversjonen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Den reviderte andre utgaven av Guide to Terminology inneholder bare noen få endringer, som skyldes at åpenbare feil og utelatelser er rettet.</p>
+</div>
+<div class="paragraph">
+<p>Da Guide to Terminology opprinnelig ble utarbeidet i 1996, fantes det ennå ikke noen enkel og kortfattet veiledning i terminologiarbeid. De internasjonale standardene var altfor teoretiske og innviklede for praktisk terminologiarbeid, og reviderte utgaver av dem var fremdeles bare på planleggingsstadiet. Vanligvis blir fagordlister utarbeidet av grupper med representanter for det aktuelle fagområdet. Slike grupper misliker ofte teori fordi de syns den er forholdsvis unyttig. Derfor følte de behov for en veiledning som med eksempler presenterte det minimum av teori som er nødvendig for terminologiarbeid. At det var behov for veiledningen, ble etter min oppfatning bekreftet ved at den snart ble oversatt til fire språk: esperanto, kroa­tisk, kinesisk og spansk (sistnevnte er imidlertid ikke gitt ut ennå).</p>
+</div>
+<div class="paragraph">
+<p>I de seneste årene er det gitt ut et nytt sett internasjonale standarder. De er mer praktisk vinklet og mer kortfattede enn tidligere. Likevel virker det som om dette heftet fortsatt forsvarer sin plass som en innføring i terminologiens verden.</p>
+</div>
+<div class="paragraph">
+<p>Helsingfors i september 2001</p>
+</div>
+<div class="paragraph">
+<p>Heidi Suonuuti</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_forord_til_den_norske_versjonen"><a class="anchor" href="#_forord_til_den_norske_versjonen"></a>Forord til den norske versjonen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Fagspråk er en viktig arena for utviklingen av ordforrådet i et språk. På de aller fleste fagområder oppstår det jevnlig nye begreper med tilhørende betegnelser, det vil si termer. Mange av dem tas i bruk også i allmennspråket, i dag ikke minst innenfor databehandling og kommunikasjon over Internett.</p>
+</div>
+<div class="paragraph">
+<p>Språkrådets forgjenger, Norsk språkråd (1972–2004), var engasjert i norsk terminologiutvikling og deltok i komité­ og prosjektarbeid på området. Språkrådet er ikke mindre opptatt av norsk fagspråk; et av institusjonens fire ytre fagråd har nettopp terminologi og fagspråk som sitt ansvarsområde.</p>
+</div>
+<div class="paragraph">
+<p>Den tiltakende internasjonaliseringen har ført til økt bruk av engelsk språk i fagkommunikasjon i de fleste industrialiserte land, så vel i forskning og utvikling som i undervisning og publisering. Det vekker bekymring fordi det i nasjonalspråk som norsk dermed i mindre grad enn før blir utviklet ny terminologi. Enkelte frykter at følgen kan bli at norsk i framtida ikke lenger vil være et fullgodt ut­trykksmiddel i tale og skrift på alle fag­ og samfunnsområder.</p>
+</div>
+<div class="paragraph">
+<p>Dette heftet blir gitt ut som et ledd i bestrebelsene på å styrke norsk fagspråk. Heidi Suonuutis Guide to Terminology gir en grunnleggende innføring i begrepsanalyse og terminologiarbeid. Vårt håp er at innholdet kan stimulere interessen for arbeid med norsk terminologi og styrke bevisstheten om at det er maktpåliggende å ivareta denne delen av morsmålets ordforråd. Målgruppen er alle som er interessert i begrepsanalyse og terminologi. Ikke minst vil fagfolk og (fag)oversettere kunne ha utbytte av innholdet. Heftet kan dessuten med fordel brukes som en innføring i emnet for studenter, innenfor både tekniske og humanistiske fag.</p>
+</div>
+<div class="paragraph">
+<p>Hovedtittelen på den norske versjonen er Termlosen. Med den øns­ker vi å tydeliggjøre at heftet ikke er en uttømmende lærebok, men snarere en veiviser gjennom de mest grunnleggende prinsippene og arbeidsmetodene på området. Tillegget <a href="#_termleia">Termleia</a> er en kortfattet veiledning som trinn for trinn viser vei i praktisk terminologiarbeid og dessuten kan benyttes som sjekkliste.</p>
+</div>
+<div class="paragraph">
+<p>Den norske versjonen følger i all hovedsak den engelske originalen, men avviker på noen punkter og følger da den svenske versjonen. <a href="#_oversikt_over_anvendte_termer">Oversikten over anvendte termer</a> <span class="line-through">med sidehenvisning (s. 41–43)</span> og <a href="#_nordterms_organisasjoner">Nordterms organisasjoner</a> <span class="line-through">(s. 44)</span> er oppdatert, i likhet med fortegnelsen over <a href="#_referanser_til_aktuelle_standarder">referanser til aktuelle standarder</a> <span class="line-through">(s. 45–46)</span>. Sistnevnte fortegnelse og <a href="#_termleia">Termleia</a> er dessuten flyttet bakerst i heftet. Overset­telsen – som dels er på bokmål, dels på nynorsk – er gjennomgått, kommentert og godkjent av forfatteren.</p>
+</div>
+<div class="paragraph">
+<p>Vi retter en stor takk til Heidi Suonuuti for at vi får gi ut en norsk versjon. Oversetteren fortjener ros for sitt solide arbeid og store tål­modighet! Vi takker også Johan Myking ved Universitetet i Bergen og flere personer ved Standard Norge som har bidratt med forslag, råd og opplysninger. Torbjørg Breivik i Språkrådet deltok i arbeidet på et innledende stadium.</p>
+</div>
+<div class="paragraph">
+<p>Oslo i juni 2008<br>
+Jan Hoel, Språkrådet</p>
+</div>
+<div class="paragraph">
+<p>Etterspørselen etter Termlosen har vært stor. Det første opplaget på 1 000 eksemplarer er revet unna på 20 måneder. Det er med stor glede vi nå gir ut et nytt, rettet opplag. Det dreier seg om noen mindre språklige rettelser og faktaendringer som ikke endrer den norske versjonen i nevneverdig grad. Vi håper det nye opplaget blir like populært som det første.</p>
+</div>
+<div class="paragraph">
+<p>Oslo i april 2010<br>
+Jan Hoel, Språkrådet</p>
+</div>
+<div class="paragraph">
+<p>Gledelig nok er det igjen blitt nødvendig å trykke opp et nytt opplag på 1 000 eksemplarer. Noen opplysninger er samtidig blitt oppdatert.</p>
+</div>
+<div class="paragraph">
+<p>Oslo i juni 2012<br>
+Jan Hoel, Språkrådet</p>
+</div>
+<div class="paragraph">
+<p>Nok et ajourført opplag på 1 000 eksemplarer er trykket opp.</p>
+</div>
+<div class="paragraph">
+<p>Oslo i mars 2015<br>
+Jan Hoel, Språkrådet</p>
+</div>
+<div class="paragraph">
+<p>Et rettet og ajourført opplag er trykket opp.</p>
+</div>
+<div class="paragraph">
+<p>Oslo i juni 2020<br>
+Marianne Aasgaard o.a., Språkrådet</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_innleiing"><a class="anchor" href="#_innleiing"></a>Innleiing</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dette heftet byggjer på dei internasjonale standardane ISO 704, 860 og 10241 (dei fullstendige titlane er førde opp <span class="line-through">på sidene 45–46)</span> [under <a href="#_referanser_til_aktuelle_standarder">Referanser til aktuelle standarder</a>] og gjev dei grunnleggjande opplysningane som er nødvendige for at eit terminologiprosjekt skal bli vellukka. Heftet vender seg difor til alle arbeidsgrupper som har terminologiarbeid som oppgåve. Heftet inneheld praktiske døme på korleis ein skriv definisjonar som byg­ gjer på ein skikkeleg terminologisk analyse, men det kan ikkje fylle plassen til ein røynd terminolog. Ein bør ta kontakt med røynde terminologar når det er mogeleg, særleg i dei innleiande stadia av terminologiarbeidet.</p>
+</div>
+<div class="paragraph">
+<p>Treng du opplysningar om og hjelp til terminologiarbeid, kan du kontakte Språkrådet eller ein av dei andre medlemsorganisasjonane i <a href="#_nordterms_organisasjoner">Nordterm</a> <span class="line-through">(sjå s. 44)</span>.</p>
+</div>
+<div class="paragraph">
+<p>Språkrådet<br>
+Postboks 1573 Vika<br>
+NO­-0118 Oslo<br>
+Tlf.: 22 54 19 50<br>
+E­post:	<a href="mailto:post@sprakradet.no">post@sprakradet.no</a> <br>
+Nettadresse: <a href="https://www.sprakradet.no/">www.språkrådet.no</a></p>
+</div>
+<div class="paragraph">
+<p>Det internasjonale senteret for terminologiinformasjon (Infoterm) kan skaffe deg namn og adresse til røynde terminologar i andre land om du ber om det. Då kontaktar du:</p>
+</div>
+<div class="paragraph">
+<p>International Information Centre for Terminology (Infoterm)<br>
+c/o CO SPACE<br>
+Gumpendorfer Strasse 65/1<br>
+AT-­1060 Wien<br>
+Austerrike<br>
+Nettadresse: <a href="http://www.infoterm.info/">www.infoterm.info</a></p>
+</div>
+<div class="paragraph">
+<p>Dei terminologiske arbeidsmetodane og prinsippa som er omtala i dette heftet, byggjer direkte på røynsle frå praktisk terminologi­arbeid. Døma som blir nytta, er nokså allmenne og er med vilje for­ enkla så det vesentlege skal komme tydeleg fram.</p>
+</div>
+<div class="paragraph">
+<p>Før ei arbeidsgruppe tek til å utarbeide ei termliste, er det viktig at gruppa kjenner til dei prinsippa som er omtala i kapitla 1–4. Den framgangsmåten ein bør følgje når ein skal utarbeide ei termliste, er nærare forklart i kapittel 5 og 6. Framgangsmåten kan kort saman­ fattast slik:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>identifisere omgrep</p>
+</li>
+<li>
+<p>utarbeide omgrepssystem</p>
+</li>
+<li>
+<p>skrive definisjonar</p>
+</li>
+<li>
+<p>velje ut og danne termar</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I praksis utfører ein ofte desse stega på same tid.</p>
+</div>
+<div class="paragraph">
+<p>Om ein følgjer denne framgangsmåten, vil arbeidet kunne organiserast meir effektivt sidan framgangsmåten er i samsvar med prinsippa for kvalitetssikring.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kap1"><a class="anchor" href="#kap1"></a>1 Omgrepsanalyse</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Terminologiarbeid er ei tverrfagleg verksemd som går ut på å ordne og overføre kunnskap. Det grunnleggjande elementet i arbeidet er omgrepet. Alt terminologiarbeid skal byggje på at omgrepa og relasjonane mellom dei blir analyserte og strukturerte.</p>
+</div>
+<div class="sect2">
+<h3 id="kap1.1"><a class="anchor" href="#kap1.1"></a>1.1 Tilhøvet mellom referent, omgrep, definisjon og term</h3>
+<div class="paragraph">
+<p>I den verkelege verda er det millionar av fenomen, eller det vi kallar <strong>referentar</strong>. Nokre av dei er konkrete (t.d. tre, innretningar og mate­ riale), andre er abstrakte (t.d. samfunn og helse).</p>
+</div>
+<div class="paragraph">
+<p>Når vi tenkjer på ein referent, til dømes eit tre, vel vi i medvitet vårt ut ei rekkje eigenskapar som vi synest best kjenneteiknar referenten. I hovudet vårt blir desse eigenskapane til abstraksjonar som vi kallar <strong>kjenneteikn</strong> (sjå <a href="#kap1.2">1.2</a>). Kjenneteikna blir deretter slegne saman slik at dei dannar ei kunnskapseining som vi kallar <strong>omgrep</strong>.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Omgrepet <em>tre</em> har mellom anna følgjande kjenneteikn: <em>fleirårig plante</em>, <em>har meir eller mindre høg og kraftig stamme</em>, <em>har forveda cellevev</em>, <em>har greiner</em>, <em>har røter</em> <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. I <em>Norsk landbruksordbok</em>, band I (Det Norske Samlaget, Oslo 1979) er <em>tre</em> definert slik: <br> <br> <strong>vedplante</strong> med meir el. mindre høg og kraftig stamme, og greiner som går ut frå denne og ber kvister med blad (nåler), blomstrar og frukter <br> <br> Same staden er <em>vedplante</em> definert slik: <br> <br> fleirårig plante med skott der storparten av stengelen (stamma) er bygd opp av <strong>ved</strong> <br> <br> <em>Ved</em> er definert slik: <br> <br> forveda (lignifisert) cellevev i røter, stamme og greiner
+</div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eit omgrep som berre er knytt til ein einaste referent, kallar vi eit <strong>individualomgrep</strong> (t.d. <em>planeten Jupiter, Eiffeltårnet</em>). Når vi tenkjer på fleire einsarta referentar, trekkjer vi ut dei eigenskapane som alle desse referentane har felles, og set dei saman som kjenneteikn for eit <strong>allmennomgrep</strong> (t.d. <em>planet</em>, <em>tårn</em>). Omgrep er abstraksjonar, og for at vi skal kunne kommunisere om dei, treng vi definisjonar og termar for å uttrykkje dei. <strong>Definisjonar</strong> er munnlege eller skriftlege ut­segner som avgrensar omgrep, og <strong>termar</strong> er uttrykk som set namn på omgrep. Eitt eller fleire ord eller andre element, til dømes symbol, kan utgjere ein term.</p>
+</div>
+<div class="paragraph">
+<p>I figur 1 er elementa i grunnplanet til pyramiden (referentar, termar og definisjonar) konkrete eller abstrakte fenomen i den verkelege verda eller uttrykk i eit språk. Omgrepa, som er plasserte i toppen av pyramiden, er mentale førestellingar. For at vi skal kunne snakke om dei, må vi bruke fastsette uttrykk, det vil seie termar eller definisjon­ ar som viser til dei. For meir detaljerte opplysningar om omgreps­ analyse, sjå ISO 704.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig1.png" alt="Fig1">
+</div>
+<div class="title">Figur 1. Tilhøvet mellom referent, omgrep, definisjon og term</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap1.2"><a class="anchor" href="#kap1.2"></a>1.2	Kjenneteikn</h3>
+<div class="paragraph">
+<p>Kjenneteikn svarer til eigenskapar knytte til referentar. Kvart omgrep har vanlegvis ei mengd kjenneteikn. Mange av dei er så vanlege at dei ikkje eignar seg når vi skal identifisere eit omgrep, eller når vi skal skilje det frå andre omgrep. (Både tre og syklar er konkrete og harde og kan vere grøne.) <strong>Åtskiljande kjenneteikn</strong> er dei kjenneteikna som åleine eller saman med andre kjenneteikn avgrensar omgrepet og skil det frå andre omgrep. I definisjonar er det berre åt­skiljande kjenneteikn som skal nyttast. (Til dømes er <em>har meir eller mindre høg og kraftig stamme</em> eit åtskiljande kjenneteikn for tre når vi samanliknar dei med klatrande planter. Derimot har alle planter, tre òg, røter, og difor er kjenneteiknet <em>har røter</em> ikkje eit åtskiljande kjenneteikn for tre.)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap1.3"><a class="anchor" href="#kap1.3"></a>1.3	Omgrepsinnhald og omgrepsomfang</h3>
+<div class="paragraph">
+<p>Innhaldet til eit omgrep er alle dei kjenneteikna som utgjer om­ grepet. (Omgrepsinnhaldet til <em>tre</em> omfattar til dømes kjenneteikna <em>fleirårig plante</em>, <em>har meir eller mindre høg og kraftig stamme</em>, <em>har grein­er</em>.) Omfanget til eit omgrep er alle dei referentane som omgrepet dekkjer. (Omgrepsomfanget til <em>tre</em> omfattar alle furutre, grantre, bjørketre, eiketre, epletre og liknande, men ikkje slektstreet!) Både <strong>omgrepsinnhald</strong> og <strong>omgrepsomfang</strong> kan nyttast til å definere omgrep (sjå <a href="#kap2.1">2.1</a>).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap1.4"><a class="anchor" href="#kap1.4"></a>1.4	Omgrepssystem</h3>
+<div class="paragraph">
+<p>Omgrep er ikkje uavhengige. Dei er alltid knytte til andre omgrep på ein eller annan måte, og dei dannar <strong>omgrepssystem</strong> som kan variere frå ganske enkle til svært komplekse. For at ein skal lukkast med å skrive definisjonar i terminologiarbeid, må ein analysere relasjona­ne mellom omgrepa og setje dei opp i omgrepssystem.</p>
+</div>
+<div class="paragraph">
+<p>Omgrepssystem blir klassifiserte etter kva typar relasjonar som finst mellom omgrepa. I all hovudsak skil vi mellom tre typar relasjonar: <strong>generiske</strong>, <strong>partitive</strong> og <strong>assosiative</strong>. I praksis arbeider vi ofte med ein kombinasjon av desse relasjonstypane (blanda omgrepssystem).</p>
+</div>
+<div class="sect3">
+<h4 id="kap1.4.1"><a class="anchor" href="#kap1.4.1"></a>1.4.1 	Generiske relasjonar og omgrepssystem</h4>
+<div class="paragraph">
+<p>Det ligg føre ein generisk relasjon når to omgrep deler ei identisk mengd kjenneteikn, men eit av omgrepa, <strong>underomgrepet</strong>, har minst eitt åtskiljande kjenneteikn i tillegg. (Om til dømes <em>tre</em> er <strong>overomgrepet</strong>, vil <em>bartre</em> vere eit underomgrep med <em>har nåler</em> og <em>er ein na­kenfrøa plante</em> som åtskiljande kjenneteikn.) Underomgrepet har eit mindre omgrepsomfang (sjå <a href="#kap1.3">1.3</a>) enn overomgrepet. (Det finst med andre ord færre bartre enn det finst tre.)</p>
+</div>
+<div class="paragraph">
+<p>Eit generisk omgrepssystem byggjer på dei generiske relasjonane mellom omgrepa. Overomgrepet er delt inn i fleire underomgrep. Det generiske omgrepssystemet har ofte fleire nivå. Eit underomgrep kan vere overomgrep for ei anna mengd underomgrep og så vidare. (Til dømes kan bartre delast inn i gran og furu.) Sjå figur 2.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig2.png" alt="Fig2">
+</div>
+<div class="title">Figur 2. Generisk omgrepssystem for <em>tre</em></div>
+</div>
+<div class="paragraph">
+<p>Eit omgrep kan delast inn i underomgrep på fleire måtar. Underinndelinga av tre kan til dømes byggje på følgjande kriterium:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>anatomi (figur 2: <em>bartre</em>, lauvtre)</p>
+</li>
+<li>
+<p>artseigenskapar (figur 3: <em>lyskrevjande tre</em>, <em>skuggetre</em>)</p>
+</li>
+<li>
+<p>bladfelling (figur 3: <em>sommargrønt tre</em>, <em>eviggrønt tre</em>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Underomgrep som er sette opp ved sida av kvarandre etter same inndelingskriterium, blir kalla sideomgrep. I figur 3 er til dømes lyskrevjande tre og skuggetre sideomgrep, medan lyskrevjande tre og sommargrønt tre ikkje er det.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig3.png" alt="Fig3">
+</div>
+<div class="title">Figur 3. To generiske omgrepssystem for <em>tre</em>, med ulikt inndelingskriterium</div>
+</div>
+<div class="paragraph">
+<p>Underinndelingane i figur 3 er parallelle og uavhengige av kvarandre og kan sjåast som underinndelingar av eit omgrep etter to ulike inndelingskriterium. I terminologiarbeid kan desse underinndelingane handsamast som åtskilde omgrepssystem med same overomgrep. Det er likevel ofte enklare å skjøne mangfaldet i omgrepsrelasjonar dersom omgrepa er slegne saman slik at dei dannar eitt omgrepssystem med fleire inndelingskriterium (sjå figur 4).</p>
+</div>
+<div class="paragraph">
+<p>Når eit omgrepssystem blir framstilt i eit trediagram, kan inndelingskriteria skrivast langs linene for underinndelingane.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig4.png" alt="Fig4">
+</div>
+<div class="title">Figur 4. Generisk omgrepssystem for tre, med fleire inndelingskriterium</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap1.4.2"><a class="anchor" href="#kap1.4.2"></a>1.4.2 Partitive relasjonar og omgrepssystem</h4>
+<div class="paragraph">
+<p>Det ligg føre ein partitiv relasjon når overomgrepet er knytt til referenten som eit heile og underomgrepa er knytte til delar av denne heilskapen (t.d. eit tre og delane av det: stamme, greiner, røter o.a.).</p>
+</div>
+<div class="paragraph">
+<p>Partitive omgrepssystem kan framstå på mange måtar. Dei delane som utgjer heilskapen, kan alle vere like (som dei to oksygenatoma som utgjer eit oksygenmolekyl) eller ulike (som dei fire årstidene som utgjer eit år). I nokre tilfelle er talet på delar avgjerande (to oksygenatom dannar eit oksygenmolekyl, tre oksygenatom dannar eit ozonmolekyl), andre gonger er det ikkje avgjerande (ein stol kan ha frå eitt til fire eller fleire bein). Heilskapen kan vere eit lukka system med visse delar (eit år) eller eit ope system som tillet at fleire delar kan takast med (elektrisk utstyr er ein heilskap som omfattar minst eitt elektrisk apparat).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig5.png" alt="Fig5">
+</div>
+<div class="title">Figur 5. Partitivt omgrepssystem for tre</div>
+</div>
+<div class="paragraph">
+<p>Figur 5 viser eit partitivt omgrepssystem som er metodisk og korrekt sett opp. I praksis ville nok ikkje uttrykka <em>trerot</em> og <em>tregrein</em> bli førde opp som termar i ei termliste for tre. Dei ville bli bytte ut med <em>rot</em> og <em>grein</em>, som viser til meir allmenne omgrep. Meir om dette under <a href="#kap2.5.3.2">2.5.3.2</a> og i figur 8.</p>
+</div>
+<div class="paragraph">
+<p>På same måten som generiske omgrepssystem kan partitive omgrepssystem ha fleire nivå og inndelingskriterium (sjå figur 6).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig6.png" alt="Fig6">
+</div>
+<div class="title">Figur 6. Partitivt omgrepssystem for tre, med fleire inndelingskriterium</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap1.4.3"><a class="anchor" href="#kap1.4.3"></a>1.4.3 Assosiative relasjonar og omgrepssystem</h4>
+<div class="paragraph">
+<p>Assosiative relasjonar dekkjer ei lang rekkje ikkje-hierarkiske relasjonar, til dømes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>årsak/verknad (<em>vår / det kjem lauv på trea</em>)</p>
+</li>
+<li>
+<p>produsent/produkt (<em>skjor / eit skjorereir</em>)</p>
+</li>
+<li>
+<p>aktivitet/aktør (<em>bygging av reir / fugl</em>)</p>
+</li>
+<li>
+<p>aktivitet/stad (<em>bygging av reir / tre</em>; <em>papirproduksjon/papirfabrikk</em>)</p>
+</li>
+<li>
+<p>føremål/stad (reir/tre; papirmaskin/papirfabrikk)</p>
+</li>
+<li>
+<p>føremål/aktivitet (<em>epletre/fruktplukking</em>)</p>
+</li>
+<li>
+<p>verkty/funksjon (<em>papirmaskin/papirproduksjon</em>)</p>
+</li>
+<li>
+<p>materiale/produkt (<em>trevyrke/papir</em>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dei assosiative relasjonane mellom omgrepa i eit omgrepssystem kan variere (sjå figur 7).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig7.png" alt="Fig7">
+</div>
+<div class="title">Figur 7. Assosiativt omgrepssystem</div>
+</div>
+<div class="paragraph">
+<p>Relasjonar:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>opphav → produkt</p>
+</li>
+<li>
+<p>råstoff → prosess</p>
+</li>
+<li>
+<p>prosess → produkt</p>
+</li>
+<li>
+<p>råstoff → maskin</p>
+</li>
+<li>
+<p>maskin → sluttprodukt</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Dei understreka orda i figuren viser korleis termar går att i definisjonane av nærskylde omgrep.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kap2"><a class="anchor" href="#kap2"></a>2 Definisjonar</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Kvaliteten på eit terminologiarbeid avheng hovudsakleg av kvaliteten på definisjonane.</p>
+</div>
+<div class="paragraph">
+<p>Ein definisjon skal gjelde <em>berre eitt</em> omgrep. Dersom ein term står for fleire enn eitt omgrep på det fagområdet som blir handsama, skal det gjerast greie for desse omgrepa i særskilde termpostar i ordlista (sjå òg <a href="#kap6.2">6.2</a>).</p>
+</div>
+<div class="paragraph">
+<p>Definisjonane skal vere skrivne på ein slik måte at omgrepa står på rett plass og er høveleg skildra i sine respektive omgrepssystem. Før ein tek til å skrive sjølve definisjonen, er det difor nødvendig å identifisere</p>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>dei omgrepa i det aktuelle omgrepssystemet som er nær knytte til kvarandre</p>
+</li>
+<li>
+<p>dei relasjonstypane som ligg føre mellom omgrepa</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>I figur 4, 5 og 7 er det døme på definisjonar som byggjer på ulike typar omgrepsrelasjonar.</p>
+</div>
+<div class="sect2">
+<h3 id="kap2.1"><a class="anchor" href="#kap2.1"></a>2.1 Typar definisjonar</h3>
+<div class="paragraph">
+<p>I fagordlister kan omgrepa definerast med hjelp av</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>innhaldsdefinisjonar</strong>, som skildrar dei vesentlege og åtskiljande kjenneteikna til omgrepet</p>
+</li>
+<li>
+<p><strong>omfangsdefinisjonar</strong>, som reknar opp dei referentane som omgrepet dekkjer</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="kap2.1.1"><a class="anchor" href="#kap2.1.1"></a>2.1.1 Innhaldsdefinisjonar</h4>
+<div class="paragraph">
+<p>Når ein skriv definisjonar, er det vanlegast å rekne opp dei åtskiljande kjenneteikna til omgrepet. Alle omgrep har ei rekkje kjenneteikn, og skulle vi rekne opp alle saman, ville definisjonen bli uforståeleg. Difor byggjer ein innhaldsdefinisjon alltid på eit generisk overomgrep som dekkjer dei grunnleggjande vesentlege kjenneteikna og plasserer omgrepet i rett samanheng blant liknande omgrep (<em>tre</em> blant <em>planter</em>, <em>papirmaskiner</em> blant andre <em>maskiner</em> osv.). Resten av definisjonen omfattar dei åtskiljande kjenneteikna som må vere med for å skilje dette omgrepet frå andre nærståande omgrep.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>lyskrevjande tre</strong><br>
+tre som treng mykje lys</p>
+</li>
+<li>
+<p><strong>skuggetre</strong><br>
+tre som trivst best i skugge</p>
+</li>
+<li>
+<p><strong>edelgass</strong><br>
+einatomig gass som berre sjeldan er med i kjemiske sambindingar</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Det er fleire døme i definisjonane i figur 4, 5 og 7.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap2.1.2"><a class="anchor" href="#kap2.1.2"></a>2.1.2 Omfangsdefinisjonar</h4>
+<div class="paragraph">
+<p>Omfangsdefinisjonar reknar opp dei referentane som er dekte av det omgrepet som skal definerast (sjå <a href="#kap1.3">1.3</a>).</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>edelgass</strong><br>
+helium, neon, argon, krypton, xenon, radon eller ununoctium<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p>
+</li>
+</ul>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Legg merke til at formuleringa «helium, neon, argon, krypton, xenon, radon og ununoctium» gjev definisjonen for gruppe 18 i «det periodiske systemet» for grunnstoff, dvs. heile gruppa av edelgassar.
+</div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Sjå òg definisjonen av <em>bartre</em> under <a href="#kap2.5.3.3">2.5.3.3</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap2.2"><a class="anchor" href="#kap2.2"></a>2.2 Systematisk definisjon</h4>
+<div class="paragraph">
+<p>For at kommunikasjonen skal vere tydeleg, må omgrepa og relasjonane og skilnadene mellom dei vere eintydig skildra. Når ein skal skrive ein definisjon, er det difor viktig å vite korleis omgrepet passar inn i det aktuelle omgrepssystemet.</p>
+</div>
+<div class="paragraph">
+<p>I generiske omgrepssystem byggjer innhaldsdefinisjonen alltid på det næraste overomgrepet. Deretter blir åtskiljande kjenneteikn valde ut for å vise relasjonane mellom over- og underomgrepa og mellom sideomgrepa.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>tre</strong><br>
+fleirårig plante med meir eller mindre høg og kraftig stamme og forveda cellevev</p>
+</li>
+<li>
+<p><strong>bartre</strong><br>
+tre med nåle- eller skjelforma blad og nakne frø</p>
+</li>
+<li>
+<p><strong>gran</strong><br>
+bartre av slekta Picea</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet til syne berre i definisjonen av eit av desse omgrepa (sjå òg <a href="#kap2.5.3.2">2.5.3.2</a>).</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>saks</strong><br></p>
+<div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>klippereiskap som har to saksblad som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman</p>
+<div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>saksblad</strong><br>
+flatt blad av metall som har egg på den eine sida og ringforma handtak for finger i den eine enden</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>år</strong><br>
+tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola</p>
+<div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>årstid</strong><br>
+del av år som er karakterisert ved vêr-, vekst- og naturforhold av same slaget</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis til med ein generell term som står for eit generisk overomgrep (sjå òg <a href="#kap2.1.1">2.1.1</a>), og deretter kjem kjenneteikna som viser den relevante assosiative relasjonen.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 7.6923%;">
+<col style="width: 38.4615%;">
+<col style="width: 7.6923%;">
+<col style="width: 38.4616%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>ved</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">←</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>vedkasse</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">trevyrke til brensel</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">behaldar til <strong>ved</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tømmer</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">←</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>tømmerhus</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">trestammer til byggjevyrke eller foredling</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">hus bygd av tømmer</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>fyrstikkvyrke</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">→</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>fyrstikk</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rundvyrke til framstilling av <strong>fyrstikker</strong></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">trestikke med tennsats som fatar ved gniding</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap2.3"><a class="anchor" href="#kap2.3"></a>2.3 Kor nøyaktig skal definisjonen vere?</h3>
+<div class="paragraph">
+<p>Definisjonar skal vere så kortfatta som mogeleg. Definisjonar som er skrivne med omtanke, skal innehalde berre dei opplysningane som trengst for å plassere omgrepet riktig i omgrepssystemet.  Alle tilleggsopplysningar og døme bør stå i ein merknad. Slike tilleggsopplysningar kan til dømes vere viktige kjenneteikn som ikkje er vesentlege, eller ei opprekning av typiske referentar som omgrepsomfanget omfattar.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>eviggrønt tre</strong><br>
+tre som held på blada sine sjølv i den kalde årstida på dei breiddegrader der slike årstider kjem regelmessig, men som kan misse blada sine i arktisk klima, eller tre som veks i eit klima der det ikkje er skiftande årstider</p>
+</li>
+<li>
+<p><em>Skriv heller</em>:</p>
+</li>
+<li>
+<p><strong>eviggrønt tre</strong><br>
+tre som held på blada sine heile året<br>
+MERKNAD: Det er klimaet som avgjer om eit tre held på blada sine og dermed kan klassifiserast som eviggrønt.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="kap2.4"><a class="anchor" href="#kap2.4"></a>2.4 Utskiftingsprinsippet</h3>
+<div class="paragraph">
+<p>I tekstar kan termar og definisjonar skiftast ut med kvarandre. Det inneber at ein term om nødvendig skal kunne skiftast ut (med små endringar) med definisjonen sin. For å avgjere om ein definisjon er korrekt eller ikkje, kan ein gjere ei utskiftingsprøve. Det gjer ein ved å byte ut termen med definisjonen av termen i til dømes ein annan definisjon.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap2.5"><a class="anchor" href="#kap2.5"></a>2.5 Feilaktige definisjonar</h3>
+<div class="paragraph">
+<p>Dei vanlegaste feilaktige definisjonane er sirkeldefinisjonar, negative definisjonar og mangelfulle definisjonar. Fleire opplysningar om andre typar feilaktige definisjonar kan ein få frå røynde terminologar eller finne i handbøker om terminologi.</p>
+</div>
+<div class="sect3">
+<h4 id="kap2.5.1"><a class="anchor" href="#kap2.5.1"></a>2.5.1 Sirkeldefinisjonar</h4>
+<div class="paragraph">
+<p>Ein sirkeldefinisjon oppstår når vi definerer eit omgrep med omgrepet sjølv, direkte eller indirekte. Av den grunn gjev ikkje ein sirkeldefinisjon oss auka kunnskap om omgrepet. Det er to typar sirkeldefinisjonar:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>indre sirkeldefinisjon, det vil seie ein sirkel innanfor ein og same definisjon</p>
+</li>
+<li>
+<p>ytre sirkeldefinisjon, det vil seie ein sirkel innanfor eit omgrepssystem</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ein definisjon går i sirkel innanfor ein og same definisjon når omgrepet blir nytta som overomgrep (døme 1) eller som eit av kjenneteikna i definisjonen (døme 2).</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>trehøgd</strong><br>
+<strong>trehøgd</strong> målt frå bakken til toppen av treet<br></p>
+<div class="paragraph">
+<p><em>Skriv heller</em>:</p>
+</div>
+<div class="paragraph">
+<p><strong>trehøgd</strong><br>
+avstanden frå bakken til toppen av treet</p>
+</div>
+</li>
+<li>
+<p><strong>eviggrønt tre</strong>
+tre som er <strong>eviggrønt</strong></p>
+<div class="paragraph">
+<p><em>Skriv heller</em>:</p>
+</div>
+<div class="paragraph">
+<p><strong>eviggrønt tre</strong><br>
+tre som held på blada sine heile året</p>
+</div>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Det ligg føre ein sirkeldefinisjon innanfor eit omgrepssystem om to eller fleire omgrep blir definerte med hjelp av kvarandre.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>nedstraums</strong><br>
+i omvend retning av oppstraums</p>
+</li>
+<li>
+<p><strong>oppstraums</strong><br>
+i omvend retning av nedstraums</p>
+<div class="paragraph">
+<p><em>Skriv heller</em>:</p>
+</div>
+<div class="paragraph">
+<p><strong>nedstraums</strong><br>
+i retning med straumen</p>
+</div>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Definisjonen av oppstraums kan likevel stå som han er, sidan han tydeleggjer at oppstraums høyrer saman med nedstraums.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap2.5.2"><a class="anchor" href="#kap2.5.2"></a>2.5.2 Negative definisjonar</h4>
+<div class="paragraph">
+<p>Ein definisjon skal vanlegvis skildre kva eit omgrep er, ikkje kva det <em>ikkje</em> er. Likevel er det nokre omgrep som krev ein negativ definisjon, sidan fråværet av visse kjenneteikn er vesentleg for omgrepet.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Negativ definisjon som ikkje kan godtakast:
+<strong>sommargrønt tre</strong><br>
+tre som ikkje er eviggrønt</p>
+<div class="paragraph">
+<p><em>Skriv heller</em>:</p>
+</div>
+<div class="paragraph">
+<p><strong>sommargrønt tre</strong><br>
+tre som feller blada før vinteren</p>
+</div>
+</li>
+<li>
+<p>Negativ definisjon som kan godtakast:
+<strong>fleinskalla</strong><br>
+som ikkje har hår på hovudet</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>I prinsippet skal ein uttrykkje kjenneteikn positivt. I visse tilfelle kan likevel eitt av fleire kjenneteikn innehalde eit negativt uttrykk, til dømes om det er vesentleg, ein språkleg konvensjon eller fast etablert.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap2.5.3"><a class="anchor" href="#kap2.5.3"></a>2.5.3 Mangelfulle definisjonar</h4>
+<div class="paragraph">
+<p>Ein definisjon skal vere nøyaktig. Han skal korkje vere for vid eller for trong.</p>
+</div>
+<div class="sect4">
+<h5 id="kap2.5.3.1"><a class="anchor" href="#kap2.5.3.1"></a>2.5.3.1 For vide definisjonar</h5>
+<div class="paragraph">
+<p>Ein definisjon er for vid om han ikkje gjev dei vesentlege opplysningane som trengst for å avgrense det aktuelle omgrepet tydeleg.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>Definisjonen av <em>tre</em> nedanfor er for vid fordi han ikkje seier at ei plante mellom anna må ha ei meir eller mindre høg og kraftig stamme for å vere eit tre. Med denne definisjonen vil både bananplanta og vinranka vere eit tre, noko dei ikkje er.</p>
+</li>
+</ul>
+</div>
+<div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>tre</strong><br>
+fleirårig høg plante</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="kap2.5.3.2"><a class="anchor" href="#kap2.5.3.2"></a>2.5.3.2 For tronge definisjonar</h5>
+<div class="paragraph">
+<p>Ein definisjon er for trong om han tek med kjenneteikn som ikkje høyrer til omgrepet, og som utilsikta stengjer ute referentar som omgrepet burde omfatte.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>Definisjonen av <em>bartre</em> nedanfor er for trong fordi han stengjer ute sommargrøne bartre som lerk, kjempegran og sumpsypress. Den korrekte definisjonen bør ikkje innehalde kjenneteiknet <em>eviggrøn</em>. Det rette overomgrepet er difor tre (sjå definisjonen under <a href="#kap2.2">2.2</a> <span class="line-through">på side 25</span>).</p>
+</li>
+</ul>
+</div>
+<div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>bartre</strong><br>
+eviggrønt tre med nåle- eller skjelforma blad og nakne frø</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Ein for trong definisjon oppstår vanlegvis når eit omgrep som er i allmenn bruk, blir definert som om det berre høyrer til eit særskilt fagområde.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>For trong definisjon:</p>
+</li>
+<li>
+<p><strong>fertilitet</strong><br>
+den evna eit <strong>tre</strong> har til å formeire seg</p>
+</li>
+<li>
+<p><em>Skriv heller</em>:</p>
+</li>
+<li>
+<p><strong>fertilitet</strong><br>
+evne til å formeire seg</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>For trong definisjon i ein partitiv relasjon:</p>
+</li>
+<li>
+<p><strong>kvist</strong>
+grunnleggjande byggjeelement i skjorereir</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Når omgrep som er i allmenn bruk, blir definerte som om dei berre høyrer til eit særskilt fagområde, blir det vanskelegare å nytte definisjonar frå andre termlister, og det fører til dobbeltarbeid. Sidan terminologiarbeid er kostbart, bør grupper som arbeider på nærskylde fagområde, unngå å definere dei same omgrepa kvar for seg.</p>
+</div>
+<div class="paragraph">
+<p>I somme tilfelle kan det likevel vere nødvendig å avgrense definisjonen til eit særskilt fagområde. Då bør fagområdet stå i vinkelparentes føre definisjonen.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>Rett formulering:</p>
+</li>
+<li>
+<p><strong>bløding</strong><br>
+&lt;botanikk&gt; utskiljing av væske frå levande del av plante gjennom
+sår i overflata</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Eit partitivt underomgrep bør definerast som <em>del av &#8230;&#8203;</em> berre dersom det einast finst som ein del av heilskapen som blir nemnd i definisjonen.</p>
+</div>
+<div class="paragraph">
+<p>Allmenne omgrep som rot, grein, blad, skrue, brytar, hjul og liknande må ikkje definerast som om dei berre er ein del av ein særskild referent eller ein særskild type referentar.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Fig8.png" alt="Fig8">
+</div>
+<div class="title">Figur 8. Partitivt omgrepssystem i praksis</div>
+</div>
+<div class="paragraph">
+<p>I praksis blir definisjonane i <strong>omgrepsdiagrammet</strong> i figur 5 skrivne slik at dei følgjer diagrammet i figur 8.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="kap2.5.3.3"><a class="anchor" href="#kap2.5.3.3"></a>2.5.3.3 Ufullstendige omfangsdefinisjonar</h5>
+<div class="paragraph">
+<p>Ein omfangsdefinisjon skal rekne opp alle referentane som inngår i omfanget til eit omgrep. Formuleringar som_ t.d., følgjande_ eller _o.l. _blir ikkje godtekne. Ei ufullstendig opprekning av referentar kan likevel takast med i ein merknad til definisjonen.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>bartre</strong><br>
+vanlege typar bartre er seder, sypress, einer, furu, gran, kjempegran, lerk og pinje</p>
+</li>
+<li>
+<p><em>Skriv heller</em>:</p>
+</li>
+<li>
+<p><strong>bartre</strong><br>
+tre med nåle- eller skjelforma blad og nakne frø<br>
+MERKNAD: Vanlege typar bartre er seder, sypress, einer, furu, gran, kjempegran, lerk og pinje.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="kap2.5.4"><a class="anchor" href="#kap2.5.4"></a>2.5.4 Skjulte definisjonar inne i definisjonar</h4>
+<div class="paragraph">
+<p>Ein definisjon skal omfatte berre eitt omgrep. Dersom ein term viser til fleire enn eitt relevant omgrep på det aktuelle fagområdet, skal han ha fleire termpostar.</p>
+</div>
+<div class="paragraph">
+<p>Andre termar enn den som står for det omgrepet definisjonen gjeld, skal ikkje forklarast inne i definisjonen. Ein definisjon skal berre vise til omgrep som er kjende for dei som skal bruke definisjonen, eller som er definerte andre stader i termlista. Alle omgrep som krev forklaringar, skal definerast i eigne termpostar.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>Den følgjande definisjonen av tre inneheld ein skjult definisjon av grein:</p>
+</li>
+<li>
+<p><strong>tre</strong><br>
+fleirårig plante med meir eller mindre høg og kraftig stamme og forveda cellevev og greiner, <strong>dvs. delar som veks ut frå stamma</strong></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Om det er nødvendig å definere grein, bør det gjerast i ein eigen termpost.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap2.6"><a class="anchor" href="#kap2.6"></a>2.6 Figurar</h3>
+<div class="paragraph">
+<p>Ein kan bruke illustrasjonar for å utfylle definisjonane, ikkje for å avløyse dei. Om ein nyttar illustrasjonar, skal dei helst stå på same sida som den termposten dei høyrer til.</p>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Døme:</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p><strong>merg</strong><br>
+sentralt, laust cellevev i stamma hos visse planter<br>
+Sjå figur 9.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="images/Fig9.png" alt="Fig9">
+</div>
+<div class="title">Figur 9. Merg</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
 </table>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_forord"><a class="anchor" href="#_forord"></a>Forord</h2>
+<h2 id="kap3"><a class="anchor" href="#kap3"></a>3 Termer</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="kap3.1"><a class="anchor" href="#kap3.1"></a>3.1 Typer termer</h3>
 <div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non augue dapibus, mollis odio vel, efficitur orci. Aenean venenatis orci a porta cursus. Suspendisse at commodo nulla, et sagittis neque. Maecenas pulvinar tellus vel tellus ultricies, sit amet tristique ex faucibus. Fusce sapien tellus, accumsan nec justo in, lobortis varius purus. Curabitur non libero lectus. Praesent accumsan quam sit amet luctus lobortis. Pellentesque augue dui, congue et felis eget, scelerisque porta enim. Proin iaculis placerat tincidunt. Cras nec gravida elit.</p>
+<p>En term kan være en <strong>enkel term</strong>, det vil si ett rotmorfem (<em>hus</em>, <em>lys</em>) alene eller med affikser (<em>belysning</em>), en <strong>sammensatt term</strong>, det vil si ett ord satt sammen av to eller flere ord (<em>miljørapport</em>), eller en <strong>flerordsterm</strong> (<em>temperert sone</em>). I en termliste føres de fleste termene opp som substantiv i entall uten ubestemt artikkel (<em>miljørapport</em>), men termene kan også forekomme som substantiv i flertall (<em>finansielle midler</em>), verb (<em>resirkulere</em>), adjektiv (<em>basisk</em>) og adverb (<em>oppstrøms</em>).</p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="kap3.2"><a class="anchor" href="#kap3.2"></a>3.2 Krav til hvordan termer velges ut og dannes</h3>
 <div class="paragraph">
-<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla id leo ac est condimentum tempus. Duis maximus tortor nec porttitor tincidunt. Donec eu mi sed libero pharetra semper quis in ex. Nunc mattis vitae libero eu rhoncus. Nam mattis magna ac tincidunt feugiat. Nulla ullamcorper, sem non volutpat varius, felis quam rhoncus massa, vitae pellentesque odio ligula a metus. Vestibulum commodo lacus eu odio posuere pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<p>Den termen som velges for et begrep, skal være språklig korrekt, det vil si at den skal følge de normer og regler som gjelder for det aktuelle språket. En term bør helst også gjenspeile noen av begrepets kjennetegn (være <em>motivert</em>), være kort og tillate bøyning og avledning. Se ISO 704 for mer detaljerte opplysninger om hvordan termer dannes.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap3.3"><a class="anchor" href="#kap3.3"></a>3.3 Anbefalte, tillatte og frarådede termer</h3>
+<div class="paragraph">
+<p>Det ideelle er at det fins bare én term for hvert begrep. Dersom flere termer er i bruk for samme begrep, bør man derfor velge bare én term som anbefalt term. I spesielle tilfeller kan det være behov for å anbefale flere enn én term. Synonymer, medregnet forkortelser, bør føres opp som tillatte eller frarådede termer. I unntakstilfeller kan en forkortelse velges som anbefalt term, men bare dersom forkortelsen er den formen som forekommer oftest (DNA; deoksyribonukleinsyre). Den fullstendige formen skal da føres opp som synonym.</p>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_kapittel_1"><a class="anchor" href="#_kapittel_1"></a>Kapittel 1</h2>
+<h2 id="kap4"><a class="anchor" href="#kap4"></a>4 Begrepsharmonisering og termharmonisering</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Etiam tempus neque porttitor enim congue, vel dictum odio aliquet. Sed massa lectus, pretium nec erat in, facilisis tincidunt lorem. Phasellus ut elit ut nibh aliquet sollicitudin a in elit. Duis dolor ligula, gravida ac eros sit amet, congue ultrices lacus. Curabitur ut tincidunt ipsum, ut aliquam ipsum. Phasellus vel elit eros. Duis pellentesque risus non sollicitudin bibendum. Donec ultrices mi lectus, id feugiat leo hendrerit a. Pellentesque in urna a elit cursus consectetur in et lacus. In hac habitasse platea dictumst. Cras scelerisque, nisl in dapibus malesuada, justo risus ornare sapien, a sagittis massa enim ut nisi. Ut varius augue justo, vel efficitur ipsum suscipit sed. Duis sollicitudin lobortis ligula sit amet sagittis.</p>
+<p>Det kan oppstå behov for å harmonisere begreper og termer fra forskjellige fagområder i ett eller flere språk. Formålet med harmoniseringen er å minske eller fjerne mindre forskjeller mellom begreper eller termer som er nær beslektet med hverandre.</p>
+</div>
+<div class="sect2">
+<h3 id="kap4.1"><a class="anchor" href="#kap4.1"></a>4.1 Harmonisering av begreper og begrepssystemer</h3>
+<div class="paragraph">
+<p>Begrepsharmonisering innebærer alltid at forskjellige begrepssystemer sammenlignes. Et begrepssystem må aldri overføres direkte til et annet språk. Ved harmonisering skal alle begrepssystemer som foreligger, sammenlignes, uansett hvor de stammer fra, det vil si om de er standardisert internasjonalt, nasjonalt eller opprettet på andre måter. Harmonisering av begreper er en del av internasjonalt standardiseringsarbeid. Se ISO 860 for mer detaljerte opplysninger.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap4.2"><a class="anchor" href="#kap4.2"></a>4.2 Harmonisering av termer og termsystemer</h3>
+<div class="paragraph">
+<p>Det er verken mulig eller meningsfylt å harmonisere termer og termsystemer på forskjellige språk før begrepene er harmonisert. I harmoniseringsarbeidet er det viktig å ikke la seg forlede av termer som ligner hverandre i formen, for eksempel «falske venner». Et eksempel på falske venner er det engelske wrist (på norsk <em>håndledd</em>) og det norske <em>vrist</em> (på engelsk instep).</p>
 </div>
 <div class="paragraph">
-<p>Vivamus elit massa, tempus vel bibendum non, fringilla sed ex. Mauris euismod neque et quam convallis gravida. Donec molestie nulla eget arcu molestie, et interdum neque auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec massa vel mauris pellentesque sollicitudin quis ut ante. Nulla malesuada pharetra ex, sit amet tincidunt mi dapibus ut. Aliquam erat volutpat. Sed sed quam sapien. Sed eu iaculis lacus, maximus interdum dolor.</p>
+<p>Ved termharmonisering skal ikke et språk påtvinges termdanningsmønstre som er fremmede for dets struktur. For å oppnå overensstemmelse mellom språk med hensyn til en term bør om mulig de samme kjennetegnene benyttes når termen dannes.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kap5"><a class="anchor" href="#kap5"></a>5 Trinnene i et terminologiprosjekt</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Hovedtrinnene i et terminologiprosjekt:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>vurdere behovene</p>
+</li>
+<li>
+<p>bestemme målgruppen og avgrense fagområdet</p>
+</li>
+<li>
+<p>identifisere begrepene</p>
+</li>
+<li>
+<p>samle inn og registrere terminologiske data</p>
+</li>
+<li>
+<p>utarbeide termliste</p>
+</li>
+<li>
+<p>utarbeide begrepssystem og tegne begrepsdiagram</p>
+</li>
+<li>
+<p>skrive definisjoner</p>
+</li>
+<li>
+<p>velge eller danne termer</p>
+</li>
+<li>
+<p>gå gjennom begrepsdiagrammene</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>I praksis utføres mange av disse trinnene samtidig.</p>
+</div>
+<div class="paragraph">
+<p>I dette kapitlet gis det veiledning til grupper som skal utarbeide termlister. Alle underpunktene er ikke like aktuelle for alle typer terminologiarbeid som kan forekomme.</p>
+</div>
+<div class="sect2">
+<h3 id="kap5.1"><a class="anchor" href="#kap5.1"></a>5.1 Arbeidsgruppe</h3>
+<div class="paragraph">
+<p>Den ideelle terminologigruppen har fra fem til åtte deltakere. Hvis gruppen ikke har erfaring med systematisk terminologiarbeid, bør det opprettes kontakt med en erfaren terminolog som kan bistå gruppen. Arbeidet vil da gå raskere, og kvaliteten på resultatet vil bli bedre. Det bør om mulig arrangeres et innføringskurs i terminologiarbeid for alle deltakerne i arbeidsgruppen.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.2"><a class="anchor" href="#kap5.2"></a>5.2 A vgrense fagområdet</h3>
+<div class="paragraph">
+<p>Fagområdet må avgrenses nøye ut fra formålet med termlista og målgruppens behov. En slik avgrensing innebærer at fagområdet beskrives utførlig og deles inn i eventuelle underområder.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.3"><a class="anchor" href="#kap5.3"></a>5.3 Kilder</h3>
+<div class="paragraph">
+<p>Alt relevant materiale på fagområdet bør benyttes. Her kan man finne nyttige eksempler, illustrasjoner, begrepssystemer, termer og lignende. De viktigste typene dokumentasjon som bør undersøkes, er lover, forskrifter, retningslinjer, standarder, lærebøker, avhandlinger, tidsskrifter, bruksanvisninger, rapporter, ordlister, ordbøker, oppslagsverker, databaser o.a. For all dokumentasjon må det vurderes om den er relevant og til å stole på. Oversatt materiale bør brukes med forsiktighet.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.4"><a class="anchor" href="#kap5.4"></a>5.4 Antall begreper</h3>
+<div class="paragraph">
+<p>En terminologigruppe kan behandle bare et begrenset antall begreper. Det å arbeide med et for stort antall begreper fører lett til inkonsekvens og utelatelser og er dessuten svært tidkrevende. Erfaring har vist at dersom antallet begreper overstiger 200, bør et prosjekt som regel deles opp i delprosjekter som blir gjennomført samtidig eller etter tur.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.5"><a class="anchor" href="#kap5.5"></a>5.5 Tidsplan</h3>
+<div class="paragraph">
+<p>Det må utarbeides en detaljert tidsplan for prosjektet så tidlig som mulig. Den bør inneholde en oversikt over de forskjellige trinnene i prosjektet, en tidsramme for hvert trinn og en beskrivelse av hvilket ansvar deltakerne i arbeidsgruppen og andre innblandede har.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.6"><a class="anchor" href="#kap5.6"></a>5.6 Samle inn og velge ut terminologiske data</h3>
+<div class="paragraph">
+<p>Man må analysere kildematerialet (se <a href="#kap5.3">5.3</a>) for å identifisere begreper som tilhører fagområdet. På dette stadiet bør ikke antallet begreper og termer som samles inn, begrenses for strengt. Kilden til de innsamlede dataene må angis tydelig. Se ISO 10241 for mer detaljerte opplysninger om registrering av terminologiske data.</p>
+</div>
+<div class="paragraph">
+<p>Følgende inndeling av begreper i fire kategorier kan tjene som rettesnor når man skal avgjøre om et begrep skal tas med eller ikke:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>fagspesifikke begreper, det vil si begreper som tilhører det aktuelle fagområdet</p>
+</li>
+<li>
+<p>fagoverskridende begreper, det vil si begreper som tilhører to eller flere fagområder</p>
+</li>
+<li>
+<p>begreper som er lånt fra nærliggende fagområder</p>
+</li>
+<li>
+<p>begreper som benyttes i allmennspråket</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Sluttresultatet bør i hovedsak inneholde fagspesifikke begreper (1) og bare et begrenset antall begreper fra kategori 2 og 3. Begreper fra allmennspråket (4) bør tas med bare i unntakstilfeller.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap5.7"><a class="anchor" href="#kap5.7"></a>5.7 Begrepssystemer og definisjoner</h3>
+<div class="paragraph">
+<p>De utvalgte begrepene skal struktureres i begrepssystemer slik at hvert begrep får en særskilt plass i et system. Det kan være fornuftig å begynne med de generiske relasjonene og deretter fortsette med de partitive og assosiative relasjonene. Oppgaven blir enklere om man benytter et diagram eller en systematisk oversikt som viser relasjonene mellom begrepene.</p>
+</div>
+<div class="paragraph">
+<p>De utvalgte begrepene skal defineres etter retningslinjene i kapittel 2. (Det fins ytterligere veiledning i de internasjonale standardene ISO 704, 860 og 10241.) I praksis skriver man ofte utkast til definisjoner samtidig som man utarbeider begrepssystemer. Dersom man utarbeider begrepssystemene først, er det vanlig at de gjennomgås på nytt når definisjonene blir skrevet. Den alminnelige regelen er at definisjonene skal være presise og lette å forstå. Dersom man benytter seg av definisjoner som allerede fins, må man være særlig påpasselig med ikke å gjenta feil og inkonsekvenser.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="kap6"><a class="anchor" href="#kap6"></a>6 Presentasjon av terminologiske data (terminografi)</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="kap6.1"><a class="anchor" href="#kap6.1"></a>6.1 Term og definisjon</h3>
+<div class="paragraph">
+<p>Følgende gjelder for termer og definisjoner:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Både term og innledende ord i definisjonen skal stå i entall, med mindre begrepet som skal defineres, betegnes med et flertallsord (f.eks. <em>finansielle midler</em>).</p>
+</li>
+<li>
+<p>Termen skal stå i ubestemt form entall om det ikke er særskilte grunner til noe annet. Definisjonen skal ikke begynne med ubestemt eller bestemt artikkel om det ikke er særskilte grunner til det.</p>
+</li>
+<li>
+<p>Termen og definisjonen skal i sin helhet skrives med små bokstaver (selvfølgelig med unntak for egennavn). Definisjonen avsluttes uten punktum.</p>
+</li>
+<li>
+<p>Definisjonen skal ikke begynne med formuleringer som «term som benyttes til &#8230;&#8203;», «term som betegner &#8230;&#8203;», «begrep som uttrykker &#8230;&#8203;», «begrep dannet av &#8230;&#8203;», «x er &#8230;&#8203;» eller «x betyr &#8230;&#8203;».</p>
+</li>
+<li>
+<p>Hvis definisjonen er hentet fra et normativt dokument, skal det vises til kilden.</p>
+</li>
+<li>
+<p>Det er bare anbefalte termer, det vil si termer som anbefales brukt for et visst begrep, som skal benyttes i definisjoner.</p>
+</li>
+<li>
+<p>Termer som er definert i termlista, skal merkes typografisk, for eksempel med halvfet eller kursivert stil, når de benyttes i andre definisjoner i termlista.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap6.2"><a class="anchor" href="#kap6.2"></a>6.2 Termposten</h3>
+<div class="paragraph">
+<p>Resultatet av terminologiarbeid presenteres i <strong>termposter</strong>. Hver termpost inneholder opplysninger om bare ett begrep. Dersom en term betegner flere begreper, skal begrepene beskrives i hver sin termpost.</p>
+</div>
+<div class="paragraph">
+<p>Med henblikk på standardisering skal en termpost inneholde minst følgende opplysninger:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>nummer på termposten</p>
+</li>
+<li>
+<p>anbefalt term</p>
+</li>
+<li>
+<p>definisjon av begrepet</p>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-all grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eksempel på en termpost fra standardiseringsarbeid (bare den norske delen av termposten i NS‑EN 45020:2006):</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist no-bullet">
+<ul class="no-bullet">
+<li>
+<p>1.3<br>
+<strong>standardiseringsområde</strong><br>
+gruppe beslektede <strong>standardiseringsemner</strong> (1.2)</p>
+</li>
+<li>
+<p>MERKNAD: Som eksempler på standardiseringsområder kan nevnes ingeniørarbeid, transport, jordbruk samt størrelser og enheter.</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Ytterligere opplysninger kan tilføyes og presenteres i henhold til ISO 10241. Termlister bør alltid utarbeides på en strukturert måte, uansett hvilket termpostformat som velges.  Ulike opplysninger må registreres hver for seg på bestemte plasser. Slike plasser kalles felt og har sitt eget symbol, for eksempel ”nbTE”, som betyr ’bokmålsterm’.</p>
+</div>
+<div class="paragraph">
+<p>Opplysninger registreres hver for seg ikke minst for at det senere skal være mulig å behandle dem automatisk, eksempelvis ved konvertering fra ett termpostformat til et annet, ved overføring av materiale til en termbase eller ved uttrekking av enkelte opplysninger, for eksempel engelske termer til et engelsk register.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap6.3"><a class="anchor" href="#kap6.3"></a>6.3 Termpostenes rekkefølge</h3>
+<div class="paragraph">
+<p>Termposter skal helst ha en systematisk oppstilling i en termliste om det er mulig. Det er imidlertid også mulig å benytte en alfabetisk eller blandet oppstilling. Slike oppstillinger er ofte lettere å finne fram i. Se ISO 10241.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="kap6.4"><a class="anchor" href="#kap6.4"></a>6.4 Datamaskinell støtte</h3>
+<div class="paragraph">
+<p>Ved mindre prosjekter kan det være tilstrekkelig å registrere og presentere terminologiske data ved hjelp av elektroniske tekstbehandlingsprogrammer (f.eks. med tabellfunksjonen), regneark, registreringsprogrammer eller enklere databaseprogrammer. Ved større og mer omfattende prosjekter bør man overveie å benytte mer avanserte terminologihåndteringssystemer (se også ISO 16162).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_oversikt_over_anvendte_termer"><a class="anchor" href="#_oversikt_over_anvendte_termer"></a>Oversikt over anvendte termer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Alle termene (på to unntak nær) er hentet fra <em>Nordterm 13, Terminologiens terminologi på nordisk</em>, som er en oversikt over sentrale terminologitermer utarbeidet av den nordiske terminologisammenslutningen <em>Nordterm</em>. Termene er tilgjengelige på <a href="#_nordterms_organisasjoner">Nordterms nettsted</a> <span class="line-through">(se s. 44)</span>.</p>
+</div>
+<div class="paragraph">
+<p>[ Språkkodene som er brukt er i henhold til ISO 639-1: <code>nb</code> = bokmål, <code>nn</code> = nynorsk, <code>da</code> = dansk, <code>en</code> = engelsk, <code>fi</code> = finsk, <code>is</code> = islandsk, <code>se</code> = nordsamisk og <code>sv</code> = svensk. ]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>allmennbegrep</strong><br>
+nn <strong>allmennomgrep</strong><br>
+da generelt begreb<br>
+en general concept<br>
+fi yleiskäsite<br>
+is almennt hugtak<br>
+se oktasaš doaba<br>
+sv allmänbegrepp<br>
+<span class="line-through">(Se side 15.)</span>
+[<a href="#kap1.1">Kap. 1.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>anbefalt term</strong><br>
+nn <strong>tilrådd term</strong><br>
+da anbefalet term<br>
+en preferred term<br>
+fi suositettava termi<br>
+is æskilegt íðorð<br>
+se ávžžuhuvvon tearbma<br>
+sv rekommenderad term<br>
+<span class="line-through">(Se side 33.)</span>
+[<a href="#kap3.3">Kap. 3.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>atskillende kjennetegn</strong><br>
+nn <strong>åtskiljande kjenneteikn</strong><br>
+da adskillende karakteristisk<br>
+træk,<br>
+adskillende træk<br>
+en delimiting characteristic<br>
+fi erottava piirre,<br>
+erottava käsitepiirre<br>
+is aðgreinandi einkenni,<br>
+aðgreinieinkenni<br>
+se earuheaddji dovdomearka<br>
+sv särskiljande kännetecken<br>
+<span class="line-through">(Se side 16.)</span>
+[<a href="#kap1.2">Kap. 1.2</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrep</strong><br>
+nn <strong>omgrep</strong><br>
+da begreb<br>
+en concept<br>
+fi käsite<br>
+is hugtak<br>
+se doaba<br>
+sv begrepp<br>
+<span class="line-through">(Se side 15.)</span>
+[<a href="#kap1.1">Kap. 1.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrepsdiagram</strong><br>
+nn <strong>omgrepsdiagram</strong><br>
+da begrebsdiagram<br>
+en concept diagram<br>
+fi käsitekaavio<br>
+is hugtakavenslamynd<br>
+se doabaskovvi<br>
+sv begreppsdiagram<br>
+<span class="line-through">(Se side 30.)</span>
+[<a href="#kap2.5.3.2">Kap. 2.5.3.2</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrepsharmonisering</strong><br>
+nn <strong>omgrepsharmonisering</strong><br>
+da begrebsharmonisering<br>
+en concept harmonization<br>
+fi käsiteharmonisointi<br>
+is hugtakasamræming<br>
+se doabaharmoniseren<br>
+sv begreppsharmonisering<br>
+<span class="line-through">(Se side 34.)</span>
+[<a href="#kap4">Kap. 4</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrepsinnhold</strong><br>
+nn <strong>omgrepsinnhald</strong><br>
+da intension<br>
+en intension<br>
+fi käsitteen sisältö<br>
+is inntak<br>
+se doahpaga sisdoallu<br>
+sv intension<br>
+<span class="line-through">(Se side 17.)</span>
+[<a href="#kap1.3">Kap. 1.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrepsomfang</strong><br>
+nn <strong>omgrepsomfang</strong><br>
+da ekstension<br>
+en extension<br>
+fi käsitteen ala<br>
+is umtak<br>
+se doahpaga viidodat<br>
+sv extension<br>
+<span class="line-through">(Se side 17.)</span>
+[<a href="#kap1.3">Kap. 1.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>begrepssystem</strong><br>
+nn <strong>omgrepssystem</strong><br>
+da begrebssystem<br>
+en concept system<br>
+fi käsitejärjestelmä<br>
+is hugtakakerfi<br>
+se doabavuogádat<br>
+sv begreppssystem<br>
+<span class="line-through">(Se side 17.)</span>
+[<a href="#kap1.4">Kap. 1.4</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>definisjon</strong><br>
+nn <strong>definisjon</strong><br>
+da definition<br>
+en definition<br>
+fi määritelmä<br>
+is skilgreining<br>
+se meroštallan<br>
+sv definition<br>
+<span class="line-through">(Se side 15 og 23 f.)</span>
+[<a href="#kap1.1">Kap. 1.1</a> og <a href="#kap2">2</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>frarådet term</strong><br>
+nn <strong>frårådd term</strong><br>
+da frarådet term<br>
+en deprecated term<br>
+fi hylättävä termi<br>
+is óæskilegt íðorð<br>
+se hilggohastearbma<br>
+sv avrådd term<br>
+<span class="line-through">(Se side 33.)</span>
+[<a href="#kap3.3">Kap. 3.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>individualbegrep</strong><br>
+nn <strong>individualomgrep</strong><br>
+da individuelt begreb<br>
+en individual concept<br>
+fi yksilökäsite<br>
+is stakt hugtak<br>
+se ovttaskas doaba<br>
+sv individualbegrepp<br>
+<span class="line-through">(Se side 15.)</span>
+[<a href="#kap1.1">Kap. 1.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>kjennetegn</strong><br>
+nn <strong>kjenneteikn</strong><br>
+da karakteristisk træk<br>
+en characteristic<br>
+fi käsitepiirre<br>
+is einkenni<br>
+se doahpaga dovdomearka<br>
+sv kännetecken<br>
+<span class="line-through">(Se side 15.)</span>
+[<a href="#kap1.2">Kap. 1.2</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>overbegrep</strong><br>
+nn <strong>overomgrep</strong><br>
+da overbegreb<br>
+en superordinate concept<br>
+fi yläkäsite<br>
+is yfirhugtak<br>
+se badjedoaba<br>
+sv överordnat begrepp<br>
+<span class="line-through">(Se side 17.)</span>
+[<a href="#kap1.4.1">Kap. 1.4.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>referent</strong><br>
+nn <strong>referent</strong><br>
+da objekt<br>
+en object<br>
+fi tarkoite<br>
+is vísimið<br>
+se čuozáhat<br>
+sv referent<br>
+<span class="line-through">(Se side 15.)</span>
+[<a href="#kap1.1">Kap. 1.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>sidebegrep</strong><br>
+nn <strong>sideomgrep</strong><br>
+da sideordnet begreb<br>
+en coordinate concept<br>
+fi vieruskäsite<br>
+is hliðskipað hugtak<br>
+se báldadoaba<br>
+sv sidoordnat begrepp<br>
+<span class="line-through">(Se side 18.)</span>
+[<a href="#kap1.4.1">Kap. 1.4.1</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>synonym</strong><br>
+nn <strong>synonym</strong><br>
+da synonym<br>
+en synonym<br>
+fi synonyymi<br>
+is samheiti<br>
+se synonyma<br>
+sv synonym<br>
+<span class="line-through">(Se side 33.)</span>
+[<a href="#kap3.3">Kap. 3.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>term</strong><br>
+nn <strong>term</strong><br>
+da term<br>
+en term<br>
+fi termi<br>
+is íðorð<br>
+se tearbma<br>
+sv term<br>
+<span class="line-through">(Se side 5 og 33.)</span>
+[<a href="#kap1.1">Kap. 1.1</a> og <a href="#kap3.3">3.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>termharmonisering</strong><br>
+nn <strong>termharmonisering</strong><br>
+da termharmonisering<br>
+en term harmonization<br>
+fi termiharmonisointi<br>
+is íðorðasamræming<br>
+se tearbmaharmoniseren<br>
+sv termharmonisering<br>
+<span class="line-through">(Se side 34.)</span>
+[<a href="#kap4">Kap. 4</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>terminolog</strong><br>
+nn <strong>terminolog</strong><br>
+da terminolog<br>
+en terminologist<br>
+fi terminologi<br>
+is íðorðafræðingur<br>
+se terminologa<br>
+sv terminolog<br>
+<span class="line-through">(Se side 13.)</span>
+[<a href="#_innleiing">Innleiing</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>termpost</strong><br>
+nn <strong>termpost</strong><br>
+da termpost<br>
+en terminological entry<br>
+fi termitietue<br>
+is fletta<br>
+se tearbmamearkkuš<br>
+sv termpost<br>
+<span class="line-through">(Se side 38.)</span>
+[<a href="#kap6.2">Kap. 6.2</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>tillatt term</strong><br>
+nn <strong>tillaten term</strong><br>
+da godkendt term,<br>
+tilladt term<br>
+en admitted term<br>
+fi sallittava termi<br>
+is heimilað íðorð<br>
+se dohkalaš tearbma<br>
+sv tillåten term<br>
+<span class="line-through">(Se side 33.)</span>
+[<a href="#kap3.3">Kap. 3.3</a>]</p>
+</div>
+<div class="paragraph">
+<p>nb <strong>underbegrep</strong><br>
+nn <strong>underomgrep</strong><br>
+da underbegreb<br>
+en subordinate concept<br>
+fi alakäsite<br>
+is undirhugtak<br>
+se vuolledoaba<br>
+sv underordnat begrepp<br>
+<span class="line-through">(Se side 17.)</span>
+[<a href="#kap1.4.1">Kap. 4.1</a>]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_nordterms_organisasjoner"><a class="anchor" href="#_nordterms_organisasjoner"></a>Nordterms organisasjoner</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>(se <a href="http://www.nordterm.net/wiki/">www.nordterm.net/wiki</a>)</p>
+</div>
+<div class="paragraph">
+<p>Nordterm er et samarbeidsforum for nordiske organisasjoner som beskjeftiger seg med terminologiarbeid, terminologiutdanning og terminologiforskning.</p>
+</div>
+<div class="paragraph">
+<p>Les mer på Nordterms nettsted: <a href="http://www.nordterm.net/wiki/">www.nordterm.net/wiki</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_referanser_til_aktuelle_standarder"><a class="anchor" href="#_referanser_til_aktuelle_standarder"></a>Referanser til aktuelle standarder</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Det fins en rekke ISO-standarder som er nyttige i terminologi- og begrepsarbeid. På <a href="https://www.sprakradet.no/standarder">www.sprakradet.no/standarder</a> finner du en oversikt over de viktigste.</p>
+</div>
+<div class="paragraph">
+<p>I Norge er det Standard Norge (<a href="https://www.standard.no/">www.standard.no</a>) som gir ut og forvalter de fleste nasjonale, europeiske og internasjonale standarder på området.</p>
+</div>
+<div class="paragraph">
+<p><strong>Standard Norges termbase <em>SNORRE</em> inneholder termer og definisjoner fra terminologilære og er fritt tilgjengelig på <a href="https://www.standard.no/termbasen/">www.termbasen.no</a></strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_termleia"><a class="anchor" href="#_termleia"></a>Termleia</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Organisere arbeidet</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Opprett en arbeidsgruppe med fra fem til åtte fageksperter.</p>
+</li>
+<li>
+<p>Kontakt en erfaren terminolog som kan bistå gruppen. Arbeidet vil da gå raskere, og kvaliteten på det endelige resultatet blir bedre.</p>
+</li>
+<li>
+<p>Innhent opplysninger om prinsipper, metoder og framgangsmåter for terminologiarbeid. Internasjonale standarder fra ISO/TC 37 inneholder nyttige opplysninger.</p>
+</li>
+<li>
+<p>Arranger et innføringskurs i praktisk terminologiarbeid for alle deltakerne i gruppen.</p>
+</li>
+<li>
+<p>Bestem målgruppe, og vurder dens behov.</p>
+</li>
+<li>
+<p>Avgrens fagområdet. Bestem hvilke underområder som skal tas med, og hvilke som skal utelates.</p>
+</li>
+<li>
+<p>Bestem hvilke språk som skal være med.</p>
+</li>
+<li>
+<p>Få tak i ordlister og andre relevante dokumenter som er utgitt på det aktuelle fagområdet.</p>
+</li>
+<li>
+<p>Få tak i tekster der relevante begreper kan identifiseres.
+MERK: Alle typer kildemateriale kan inneholde nyttige opplysninger.</p>
+</li>
+<li>
+<p>Vurder om kildematerialet er pålitelig og relevant. Oversatt materiale må benyttes med forsiktighet.</p>
+</li>
+<li>
+<p>Bestem hvor mange begreper som skal tas med.</p>
+</li>
+<li>
+<p>Sett opp en detaljert tidsplan.</p>
+</li>
+<li>
+<p>Velg termpostformat og hensiktsmessig datamaskinell støtte for registreringen.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Registrere og strukturere opplysningene</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="14">
+<li>
+<p>Analyser kildematerialet, og identifiser begreper som tilhører fagområdet.</p>
+</li>
+<li>
+<p>Ekserper og registrer termer, definisjoner og andre relevante opplysninger om begrepene fra kildematerialet. Konsulter fageksperter.</p>
+</li>
+<li>
+<p>Velg ut de begrepene som skal være med, og strukturer dem i begrepssystemer. Tegn begrepsdiagrammer. Kontroller og korriger utelatelser i eller overlapping mellom systemene.<br>
+MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres atskilt for hvert språk.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Definere begrepene</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="17">
+<li>
+<p>Følg begrepssystemene når definisjonene skrives. I generiske begrepssystemer bygger definisjonen på det nærmeste overbegrepet. I partitive og assosiative begrepssystemer kan allmennord benyttes om nødvendig. Eksempler på nyttige ord er <em>egenskap</em>, <em>virksomhet</em>, <em>vitenskap</em>, <em>innretning</em>, <em>prosess</em> og <em>system</em>. Nyttige ordkombinasjoner er <em>del av</em>, <em>element i</em>, <em>komponent i</em>, som angir partitive relasjoner, og <em>resultat av</em>, <em>produkt framstilt ved</em>, som angir assosiative relasjoner. Resten av definisjonen beskriver hvordan begrepet skiller seg fra beslektede begreper i samme system.</p>
+</li>
+<li>
+<p>Bruk sitater fra standarder eller andre pålitelige kilder når det er mulig. Oppgi kilden i hakeparentes, f.eks. [ISO 2382-1:1993].</p>
+</li>
+<li>
+<p>Skriv eller gjengi definisjoner som gir begrepet riktig plass i begrepssystemet. Hvis det er nødvendig å omformulere en definisjon som er hentet fra en autoritativ kilde, må det gjøres med forsiktighet så definisjonens innhold eller omfang ikke blir endret.</p>
+</li>
+<li>
+<p>Skriv definisjoner som er tilpasset målgruppen. Personer som ikke er fagfolk, vil ikke kunne dra nytte av svært tekniske faguttrykk, for eksempel matematiske formler. På den andre siden vil en definisjon <em>uten</em> fagspesifikke opplysninger ikke tilfredsstille en fageksperts behov.</p>
+</li>
+<li>
+<p>Erstatt ikke definisjoner med illustrasjoner.</p>
+</li>
+<li>
+<p>Beskriv bare ett begrep i hver definisjon. Begreper som må forklares, skal defineres i egne termposter og ikke i definisjonen av et annet begrep.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Unngå feil i definisjonene</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="23">
+<li>
+<p>Skriv ikke definisjoner som er for vide eller for snevre. Ta med bare de kjennetegnene som er nødvendige for å identifisere begrepet. Tilleggsopplysninger kan angis i en merknad eller i et eksempel.</p>
+</li>
+<li>
+<p>Unngå å skrive definisjoner som gjelder bare under bestemte forhold. Oppgi om nødvendig fagområdet for definisjonen for å unngå misforståelser. Dette er særlig viktig når en term viser til flere enn ett begrep, for eksempel <em>leder</em> (&lt;elektronikk&gt;) og <em>leder</em> (&lt;administrasjon&gt;).</p>
+</li>
+<li>
+<p>Benytt ikke termen selv eller en morfologisk variant av den i definisjonen av begrepet (indre sirkel).</p>
+</li>
+<li>
+<p>Skriv ikke definisjoner der begreper defineres ved hjelp av hverandre (ytre sirkel).</p>
+</li>
+<li>
+<p>Skriv definisjoner som beskriver hva begrepet er, ikke hva det <em>ikke</em> er.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Formulere definisjonene</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="28">
+<li>
+<p>Skriv kort og konsist.</p>
+</li>
+<li>
+<p>Benytt bare termer som er selvforklarende for målgruppen eller definert andre steder i samme termliste, og bruk for øvrig vanlige ord fra allmennspråket.</p>
+</li>
+<li>
+<p>Benytt anbefalte termer for å vise til begreper som alt er definert.</p>
+</li>
+<li>
+<p>Benytt samme ordklasse i definisjonen som i termen, dvs. bruk et verb som hovedord når et verb skal defineres, et substantiv når et substantiv skal defineres, osv.</p>
+</li>
+<li>
+<p>Kontroller den språklige utformingen av definisjonen. Begynn med liten bokstav, og avslutt uten punktum. Om hovedordet i definisjonen er et substantiv, skal det stå i entall og vanligvis i ubestemt form uten artikkel.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Velge termer</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="33">
+<li>
+<p>Vurder termene, og grupper dem i for eksempel <em>anbefalt term</em>, <em>frarådet term</em> og <em>foreldet term</em>.</p>
+</li>
+<li>
+<p>Finn ekvivalenter hvis termlista er flerspråklig, og oppgi graden av ekvivalens.</p>
+</li>
+<li>
+<p>Hvis en term benyttes for flere enn ett begrep («har flere enn én betydning») på det aktuelle fagområdet, før da opp hvert begrep i en egen termpost (og gi ev. termene ulikt nummer).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Sluttføre arbeidet</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="36">
+<li>
+<p>Bestem termpostenes utforming og innbyrdes rekkefølge.</p>
+</li>
+<li>
+<p>Skriv innledning til termlista, og sett opp stikkordregister.</p>
+</li>
+<li>
+<p>La ytterligere fageksperter kontrollere arbeidet. La en språkekspert gå gjennom termlista om det ikke har deltatt språkfolk i arbeidsgruppen.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>I praksis utføres mange av disse trinnene i arbeidsprosessen samtidig.</p>
 </div>
 <!-- Google Analytics -->
 <script>
@@ -523,7 +2447,7 @@ ga('send', 'pageview');
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2020-08-13 12:52:16 UTC
+Sist oppdatert 2020-08-13 13:06:06 UTC
 </div>
 </div>
 </body>

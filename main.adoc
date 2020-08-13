@@ -1,25 +1,73 @@
 include::locale/attributes.adoc[]
-= Spesifikasjonsmal
-:description: Mal for bruk til nye spesifikasjoner som er laga i asciidoc.
+
+= Termlosen
+Kort innføring i begrepsanalyse og terminologiarbeid
+Heidi Suonuuti
+:description: Termlosen
 :doctype: book
 :docinfo:
 :icons: font
 :toc: left
+:toc-title: Innhald
 :toclevels: 3
 :sectanchors:
-:imagesdir: images
-:title-logo-image: image:digitaliseringsdirektoratet.png[pdfwidth=30vw]
+:title-logo-image: images/image:digitaliseringsdirektoratet.png[pdfwidth=15vw]
+:title-logo-image: images/image:Sprakradet_logo.png[pdfwidth=15vw]
 
-image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
+image::images/Sprakradet_logo.png[width=20%, pdfwidth=15vw]
+image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=15vw]
 
-Publisert: 2020-03-05
+*Publisert*: under publisering +
+*Status*: under publisering
 
-WARNING: Dette er mal-dokument for andre spesifikasjoner.
+WARNING: Denne er under publisering, justeringer kan komme.
 
-include::shared/download.adoc[]
+[TIP]
+*Nedlasting av dokumentet*: +
+Den trykte utgaven av Termlosen kan https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[bestilles eller lastes ned som PDF fra Språkrådet]. +
+Denne nettutgaven kan også lastes ned link:document.pdf[som PDF].
 
-// Innhold her. Feks ei fil pr kapittel:
-include::forord.adoc[]
-include::kapittel_1.adoc[]
+NOTE: *Innmelding av feil og mangler*: +
+Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/termlosen/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[den trykte utgaven av Termlosen]. Sidereferanser i den trykte utgaven er beholdt i denne nettutgaven, men med [.line-through]#gjennomstrekning# ev. kombinert med ny tekst i klammeparentes, f.eks. `[.line-through]#på side ...# [under ...]`.
+
+// Innhold her:
+
+// include::forord_engelsk_original.adoc[]
+
+// include::forord_engelsk_annenutgave.adoc[]
+
+// include::forord_norsk_versjon.adoc[]
+
+include::f1_forord_til_den_engelske_originalversjonen.adoc[]
+
+include::f2_forord_til_andre_utgave_av_den_engelske_originalversjonen.adoc[]
+
+include::f3_forord_til_den_norske_versjonen.adoc[]
+
+include::0_innleiing.adoc[]
+
+include::1_omgrepsanalyse.adoc[]
+
+include::2_definisjonar.adoc[]
+
+include::3_termer.adoc[]
+
+include::4_begrepsharmonisering_og_termharmonisering.adoc[]
+
+include::5_trinnene_i_et_terminologiprosjekt.adoc[]
+
+include::6_presentasjon_av_terminologiske_data.adoc[]
+
+include::v1_oversikt_over_anvendte_termer.adoc[]
+
+include::v2_Nordterms_organisasjoner.adoc[]
+
+include::v3_referanser_til_aktuelle_standarder.adoc[]
+
+include::v4_termleia.adoc[]
+
+//
 
 include::shared/stats.adoc[]

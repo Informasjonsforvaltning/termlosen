@@ -1,0 +1,65 @@
+== Termleia
+
+*Organisere arbeidet*
+
+. Opprett en arbeidsgruppe med fra fem til åtte fageksperter.
+. Kontakt en erfaren terminolog som kan bistå gruppen. Arbeidet vil da gå raskere, og kvaliteten på det endelige resultatet blir bedre.
+. Innhent opplysninger om prinsipper, metoder og framgangsmåter for terminologiarbeid. Internasjonale standarder fra ISO/TC 37 inneholder nyttige opplysninger.
+. Arranger et innføringskurs i praktisk terminologiarbeid for alle deltakerne i gruppen.
+. Bestem målgruppe, og vurder dens behov.
+. Avgrens fagområdet. Bestem hvilke underområder som skal tas med, og hvilke som skal utelates.
+. Bestem hvilke språk som skal være med.
+. Få tak i ordlister og andre relevante dokumenter som er utgitt på det aktuelle fagområdet.
+. Få tak i tekster der relevante begreper kan identifiseres.
+MERK: Alle typer kildemateriale kan inneholde nyttige opplysninger.
+
+. Vurder om kildematerialet er pålitelig og relevant. Oversatt materiale må benyttes med forsiktighet.
+. Bestem hvor mange begreper som skal tas med.
+. Sett opp en detaljert tidsplan.
+. Velg termpostformat og hensiktsmessig datamaskinell støtte for registreringen.
+
+*Registrere og strukturere opplysningene*
+[start=14]
+. Analyser kildematerialet, og identifiser begreper som tilhører fagområdet.
+. Ekserper og registrer termer, definisjoner og andre relevante opplysninger om begrepene fra kildematerialet. Konsulter fageksperter.
+. Velg ut de begrepene som skal være med, og strukturer dem i begrepssystemer. Tegn begrepsdiagrammer. Kontroller og korriger utelatelser i eller overlapping mellom systemene. +
+MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres atskilt for hvert språk.
+
+*Definere begrepene*
+[start=17]
+. Følg begrepssystemene når definisjonene skrives. I generiske begrepssystemer bygger definisjonen på det nærmeste overbegrepet. I partitive og assosiative begrepssystemer kan allmennord benyttes om nødvendig. Eksempler på nyttige ord er _egenskap_, _virksomhet_, _vitenskap_, _innretning_, _prosess_ og _system_. Nyttige ordkombinasjoner er _del av_, _element i_, _komponent i_, som angir partitive relasjoner, og _resultat av_, _produkt framstilt ved_, som angir assosiative relasjoner. Resten av definisjonen beskriver hvordan begrepet skiller seg fra beslektede begreper i samme system.
+. Bruk sitater fra standarder eller andre pålitelige kilder når det er mulig. Oppgi kilden i hakeparentes, f.eks. [ISO 2382-1:1993].
+. Skriv eller gjengi definisjoner som gir begrepet riktig plass i begrepssystemet. Hvis det er nødvendig å omformulere en definisjon som er hentet fra en autoritativ kilde, må det gjøres med forsiktighet så definisjonens innhold eller omfang ikke blir endret.
+. Skriv definisjoner som er tilpasset målgruppen. Personer som ikke er fagfolk, vil ikke kunne dra nytte av svært tekniske faguttrykk, for eksempel matematiske formler. På den andre siden vil en definisjon _uten_ fagspesifikke opplysninger ikke tilfredsstille en fageksperts behov.
+. Erstatt ikke definisjoner med illustrasjoner.
+. Beskriv bare ett begrep i hver definisjon. Begreper som må forklares, skal defineres i egne termposter og ikke i definisjonen av et annet begrep.
+
+*Unngå feil i definisjonene*
+[start=23]
+. Skriv ikke definisjoner som er for vide eller for snevre. Ta med bare de kjennetegnene som er nødvendige for å identifisere begrepet. Tilleggsopplysninger kan angis i en merknad eller i et eksempel.
+. Unngå å skrive definisjoner som gjelder bare under bestemte forhold. Oppgi om nødvendig fagområdet for definisjonen for å unngå misforståelser. Dette er særlig viktig når en term viser til flere enn ett begrep, for eksempel _leder_ (<elektronikk>) og _leder_ (<administrasjon>).
+. Benytt ikke termen selv eller en morfologisk variant av den i definisjonen av begrepet (indre sirkel).
+. Skriv ikke definisjoner der begreper defineres ved hjelp av hverandre (ytre sirkel).
+. Skriv definisjoner som beskriver hva begrepet er, ikke hva det _ikke_ er.
+
+*Formulere definisjonene*
+[start=28]
+. Skriv kort og konsist.
+. Benytt bare termer som er selvforklarende for målgruppen eller definert andre steder i samme termliste, og bruk for øvrig vanlige ord fra allmennspråket.
+. Benytt anbefalte termer for å vise til begreper som alt er definert.
+. Benytt samme ordklasse i definisjonen som i termen, dvs. bruk et verb som hovedord når et verb skal defineres, et substantiv når et substantiv skal defineres, osv.
+. Kontroller den språklige utformingen av definisjonen. Begynn med liten bokstav, og avslutt uten punktum. Om hovedordet i definisjonen er et substantiv, skal det stå i entall og vanligvis i ubestemt form uten artikkel.
+
+*Velge termer*
+[start=33]
+. Vurder termene, og grupper dem i for eksempel _anbefalt term_, _frarådet term_ og _foreldet term_.
+. Finn ekvivalenter hvis termlista er flerspråklig, og oppgi graden av ekvivalens.
+. Hvis en term benyttes for flere enn ett begrep («har flere enn én betydning») på det aktuelle fagområdet, før da opp hvert begrep i en egen termpost (og gi ev. termene ulikt nummer).
+
+*Sluttføre arbeidet*
+[start=36]
+. Bestem termpostenes utforming og innbyrdes rekkefølge.
+. Skriv innledning til termlista, og sett opp stikkordregister.
+. La ytterligere fageksperter kontrollere arbeidet. La en språkekspert gå gjennom termlista om det ikke har deltatt språkfolk i arbeidsgruppen.
+
+I praksis utføres mange av disse trinnene i arbeidsprosessen samtidig.

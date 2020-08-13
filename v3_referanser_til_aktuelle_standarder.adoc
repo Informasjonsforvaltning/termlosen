@@ -1,0 +1,7 @@
+== Referanser til aktuelle standarder
+
+Det fins en rekke ISO-standarder som er nyttige i terminologi- og begrepsarbeid. På https://www.sprakradet.no/standarder[www.sprakradet.no/standarder] finner du en oversikt over de viktigste.
+
+I Norge er det Standard Norge (https://www.standard.no/[www.standard.no]) som gir ut og forvalter de fleste nasjonale, europeiske og internasjonale standarder på området.
+
+*Standard Norges termbase _SNORRE_ inneholder termer og definisjoner fra terminologilære og er fritt tilgjengelig på https://www.standard.no/termbasen/[www.termbasen.no]*.
