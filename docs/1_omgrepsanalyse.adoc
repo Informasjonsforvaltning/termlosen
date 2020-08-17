@@ -19,12 +19,10 @@ pass:p[ +]
 pass:p[ +]
 Same staden er _vedplante_ definert slik:
 pass:p[ +]
-pass:p[ +]
 fleirårig plante med skott der storparten av stengelen (stamma) er bygd opp av *ved*
 pass:p[ +]
 pass:p[ +]
 _Ved_ er definert slik:
-pass:p[ +]
 pass:p[ +]
 forveda (lignifisert) cellevev i røter, stamme og greiner]
 |===
@@ -39,8 +37,12 @@ image::images/Fig1.png[]
 
 === 1.2	Kjenneteikn [[kap1.2]]
 
-Kjenneteikn svarer til eigenskapar knytte til referentar. Kvart omgrep har vanlegvis ei mengd kjenneteikn. Mange av dei er så vanlege at dei ikkje eignar seg når vi skal identifisere eit omgrep, eller når vi skal skilje det frå andre omgrep. (Både tre og syklar er konkrete og harde og kan vere grøne.) *Åtskiljande kjenneteikn* er dei kjenneteikna som åleine eller saman med andre kjenneteikn avgrensar omgrepet og skil det frå andre omgrep. I definisjonar er det berre åt­skiljande kjenneteikn som skal nyttast. (Til dømes er _har meir eller mindre høg og kraftig stamme_ eit åtskiljande kjenneteikn for tre når vi samanliknar dei med klatrande planter. Derimot har alle planter, tre òg, røter, og difor er kjenneteiknet _har røter_ ikkje eit åtskiljande kjenneteikn for tre.)
+Kjenneteikn svarer til eigenskapar knytte til referentar. Kvart omgrep har vanlegvis ei mengd kjenneteikn. Mange av dei er så vanlege at dei ikkje eignar seg når vi skal identifisere eit omgrep, eller når vi skal skilje det frå andre omgrep. (Både tre og syklar er _konkrete_ og _harde_ og kan vere _grøne_.) *Åtskiljande kjenneteikn* er dei kjenneteikna som åleine eller saman med andre kjenneteikn avgrensar omgrepet og skil det frå andre omgrep. I definisjonar er det berre åt­skiljande kjenneteikn som skal nyttast.
 
+[grid=none]
+|===
+Til dømes er _har meir eller mindre høg og kraftig stamme_ eit åtskiljande kjenneteikn for tre når vi samanliknar dei med klatrande planter. Derimot har alle planter, tre òg, røter, og difor er kjenneteiknet _har røter_ ikkje eit åtskiljande kjenneteikn for tre.
+|===
 
 === 1.3	Omgrepsinnhald og omgrepsomfang [[kap1.3]]
 
@@ -57,7 +59,7 @@ Omgrepssystem blir klassifiserte etter kva typar relasjonar som finst mellom omg
 
 Det ligg føre ein generisk relasjon når to omgrep deler ei identisk mengd kjenneteikn, men eit av omgrepa, *underomgrepet*, har minst eitt åtskiljande kjenneteikn i tillegg. (Om til dømes _tre_ er *overomgrepet*, vil _bartre_ vere eit underomgrep med _har nåler_ og _er ein na­kenfrøa plante_ som åtskiljande kjenneteikn.) Underomgrepet har eit mindre omgrepsomfang (sjå <<kap1.3, 1.3>>) enn overomgrepet. (Det finst med andre ord færre bartre enn det finst tre.)
 
-Eit generisk omgrepssystem byggjer på dei generiske relasjonane mellom omgrepa. Overomgrepet er delt inn i fleire underomgrep. Det generiske omgrepssystemet har ofte fleire nivå. Eit underomgrep kan vere overomgrep for ei anna mengd underomgrep og så vidare. (Til dømes kan bartre delast inn i gran og furu.) Sjå figur 2.
+Eit generisk omgrepssystem byggjer på dei generiske relasjonane mellom omgrepa. Overomgrepet er delt inn i fleire underomgrep. Det generiske omgrepssystemet har ofte fleire nivå. Eit underomgrep kan vere overomgrep for ei anna mengd underomgrep og så vidare. (Til dømes kan bartre delast inn i _gran_ og _furu_.) Sjå figur 2.
 
 .Generisk omgrepssystem for _tre_
 image::images/Fig2.png[]
@@ -68,7 +70,7 @@ Eit omgrep kan delast inn i underomgrep på fleire måtar. Underinndelinga av tr
 * artseigenskapar (figur 3: _lyskrevjande tre_, _skuggetre_)
 * bladfelling (figur 3: _sommargrønt tre_, _eviggrønt tre_)
 
-Underomgrep som er sette opp ved sida av kvarandre etter same inndelingskriterium, blir kalla sideomgrep. I figur 3 er til dømes lyskrevjande tre og skuggetre sideomgrep, medan lyskrevjande tre og sommargrønt tre ikkje er det.
+Underomgrep som er sette opp ved sida av kvarandre etter same inndelingskriterium, blir kalla *sideomgrep*. I figur 3 er til dømes _lyskrevjande tre_ og _skuggetre_ sideomgrep, medan _lyskrevjande tre_ og _sommargrønt tre_ ikkje er det.
 
 .To generiske omgrepssystem for _tre_, med ulikt inndelingskriterium
 image::images/Fig3.png[]
@@ -104,7 +106,7 @@ Assosiative relasjonar dekkjer ei lang rekkje ikkje-hierarkiske relasjonar, til 
 * produsent/produkt (_skjor / eit skjorereir_)
 * aktivitet/aktør (_bygging av reir / fugl_)
 * aktivitet/stad (_bygging av reir / tre_; _papirproduksjon/papirfabrikk_)
-* føremål/stad (reir/tre; papirmaskin/papirfabrikk)
+* føremål/stad (_reir/tre_; _papirmaskin/papirfabrikk_)
 * føremål/aktivitet (_epletre/fruktplukking_)
 * verkty/funksjon (_papirmaskin/papirproduksjon_)
 * materiale/produkt (_trevyrke/papir_)
