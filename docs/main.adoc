@@ -38,11 +38,6 @@ Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Ter
 
 // Innhold her:
 
-// include::forord_engelsk_original.adoc[]
-
-// include::forord_engelsk_annenutgave.adoc[]
-
-// include::forord_norsk_versjon.adoc[]
 
 include::f1_forord_til_den_engelske_originalversjonen.adoc[]
 
