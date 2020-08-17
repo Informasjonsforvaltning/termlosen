@@ -1,5 +1,4 @@
 include::locale/attributes.adoc[]
-
 = Termlosen
 Kort innføring i begrepsanalyse og terminologiarbeid
 Heidi Suonuuti
@@ -12,10 +11,10 @@ Heidi Suonuuti
 :toclevels: 3
 :sectanchors:
 :imagesdir: images
-:title-logo-image: image:Sprakradet_logo.png[pdfwidth=15vw]
+:title-logo-image: image:Sprakradet_logo.jpg[pdfwidth=15vw]
 :title-logo-image: image:digitaliseringsdirektoratet.png[pdfwidth=38vw]
 
-image::Sprakradet_logo.png[width=20%, pdfwidth=15vw]
+image::Sprakradet_logo.jpg[width=20%, pdfwidth=15vw]
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=38vw]
 
 :imagesdir:
