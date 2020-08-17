@@ -204,7 +204,7 @@ is íðorð +
 se tearbma +
 sv term +
 [line-through]#(Se side 5 og 33.)#
-[<<kap1.1, Kap. 1.1>> og <<kap3.3, 3.3>>]
+[<<kap1.1, Kap. 1.1>> og <<kap3, 3>>]
 
 nb *termharmonisering* +
 nn *termharmonisering* +

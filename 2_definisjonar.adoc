@@ -66,13 +66,13 @@ I generiske omgrepssystem byggjer innhaldsdefinisjonen alltid på det næraste o
 |Døme:
 a| [no-bullet]
 * *tre* +
-fleirårig plante med meir eller mindre høg og kraftig stamme og forveda cellevev
+fleirårig *plante* med meir eller mindre høg og kraftig stamme og forveda cellevev
 
 * *bartre* +
 tre med nåle- eller skjelforma blad og nakne frø
 
 * *gran* +
-bartre av slekta Picea
+bartre av slekta _Picea_
 |===
 
 I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet til syne berre i definisjonen av eit av desse omgrepa (sjå òg <<kap2.5.3.2, 2.5.3.2>>).
@@ -83,30 +83,30 @@ I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet
 a|
 . *saks* +
 [no-bullet]
-* klippereiskap som har to saksblad som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
+* klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
 [no-bullet]
-** *saksblad* +
+* *saksblad* +
 flatt blad av metall som har egg på den eine sida og ringforma handtak for finger i den eine enden
 
 . *år* +
 [no-bullet]
-tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
+* tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
 [no-bullet]
-** *årstid* +
-del av år som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
+* *årstid* +
+del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
 |===
 
 Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis til med ein generell term som står for eit generisk overomgrep (sjå òg <<kap2.1.1, 2.1.1>>), og deretter kjem kjenneteikna som viser den relevante assosiative relasjonen.
 
-[grid=none, cols="1,1,5,1,5"]
+[grid=none, cols="1,8,1,8"]
 |===
-|Døme:||||
-||1|*ved*|←|*vedkasse*
-|||trevyrke til brensel||behaldar til *ved*
-||2|*tømmer*|←|*tømmerhus*
-|||trestammer til byggjevyrke eller foredling||hus bygd av tømmer
-||3|*fyrstikkvyrke*|→|*fyrstikk*
-|||rundvyrke til framstilling av *fyrstikker*||trestikke med tennsats som fatar ved gniding
+2+|Døme:||
+|1|*ved*|←|*vedkasse*
+||trevyrke til brensel||behaldar til *ved*
+|2|*tømmer*|←|*tømmerhus*
+||trestammer til byggjevyrke eller foredling||hus bygd av tømmer
+|3|*fyrstikkvyrke*|→|*fyrstikk*
+||rundvyrke til framstilling av *fyrstikker*||trestikke med tennsats som fatar ved gniding
 |===
 
 === 2.3 Kor nøyaktig skal definisjonen vere? [[kap2.3]]
@@ -155,7 +155,7 @@ _Skriv heller_:
 *trehøgd* +
 avstanden frå bakken til toppen av treet
 
-. *eviggrønt tre*
+. *eviggrønt tre* +
 tre som er *eviggrønt*
 [no-bullet]
 _Skriv heller_:
@@ -182,7 +182,7 @@ _Skriv heller_:
 i retning med straumen
 |===
 
-Definisjonen av oppstraums kan likevel stå som han er, sidan han tydeleggjer at oppstraums høyrer saman med nedstraums.
+Definisjonen av _oppstraums_ kan likevel stå som han er, sidan han tydeleggjer at _oppstraums_ høyrer saman med _nedstraums_.
 
 ==== 2.5.2 Negative definisjonar [[kap2.5.2]]
 
@@ -192,7 +192,8 @@ Ein definisjon skal vanlegvis skildre kva eit omgrep er, ikkje kva det _ikkje_ e
 |===
 |Døme:
 a|
-. Negativ definisjon som ikkje kan godtakast:
+. Negativ definisjon som ikkje kan godtakast: +
++
 [no-bullet]
 *sommargrønt tre* +
 tre som ikkje er eviggrønt
@@ -202,7 +203,8 @@ _Skriv heller_:
 *sommargrønt tre* +
 tre som feller blada før vinteren
 
-. Negativ definisjon som kan godtakast:
+. Negativ definisjon som kan godtakast: +
++
 [no-bullet]
 *fleinskalla* +
 som ikkje har hår på hovudet
@@ -237,11 +239,11 @@ Ein definisjon er for trong om han tek med kjenneteikn som ikkje høyrer til omg
 |===
 |Døme:
 a| [no-bullet]
-* Definisjonen av _bartre_ nedanfor er for trong fordi han stengjer ute sommargrøne bartre som lerk, kjempegran og sumpsypress. Den korrekte definisjonen bør ikkje innehalde kjenneteiknet _eviggrøn_. Det rette overomgrepet er difor tre (sjå definisjonen under <<kap2.2, 2.2>> [.line-through]#på side 25#).
+* Definisjonen av _bartre_ nedanfor er for trong fordi han stengjer ute sommargrøne bartre som lerk, kjempegran og sumpsypress. Den korrekte definisjonen bør ikkje innehalde kjenneteiknet _eviggrøn_. Det rette overomgrepet er difor _tre_ (sjå definisjonen under <<kap2.2, 2.2>> [.line-through]#på side 25#).
 
 [no-bullet]
 * *bartre* +
-eviggrønt tre med nåle- eller skjelforma blad og nakne frø
+*eviggrønt tre* med nåle- eller skjelforma blad og nakne frø
 |===
 
 Ein for trong definisjon oppstår vanlegvis når eit omgrep som er i allmenn bruk, blir definert som om det berre høyrer til eit særskilt fagområde.
@@ -264,7 +266,7 @@ evne til å formeire seg
 a| [no-bullet]
 * For trong definisjon i ein partitiv relasjon:
 [no-bullet]
-* *kvist*
+* *kvist* +
 grunnleggjande byggjeelement i skjorereir
 |===
 
@@ -285,7 +287,7 @@ sår i overflata
 
 Eit partitivt underomgrep bør definerast som _del av ..._ berre dersom det einast finst som ein del av heilskapen som blir nemnd i definisjonen.
 
-Allmenne omgrep som rot, grein, blad, skrue, brytar, hjul og liknande må ikkje definerast som om dei berre er ein del av ein særskild referent eller ein særskild type referentar.
+Allmenne omgrep som _rot_, _grein_, _blad_, _skrue_, _brytar_, _hjul_ og liknande må ikkje definerast som om dei berre er ein del av ein særskild referent eller ein særskild type referentar.
 
 .Partitivt omgrepssystem i praksis
 image::images/Fig8.png[]
@@ -294,7 +296,7 @@ I praksis blir definisjonane i *omgrepsdiagrammet* i figur 5 skrivne slik at dei
 
 ===== 2.5.3.3 Ufullstendige omfangsdefinisjonar [[kap2.5.3.3]]
 
-Ein omfangsdefinisjon skal rekne opp alle referentane som inngår i omfanget til eit omgrep. Formuleringar som_ t.d., følgjande_ eller _o.l. _blir ikkje godtekne. Ei ufullstendig opprekning av referentar kan likevel takast med i ein merknad til definisjonen.
+Ein omfangsdefinisjon skal rekne opp alle referentane som inngår i omfanget til eit omgrep. Formuleringar som _t.d., følgjande_ eller _o.l._ blir ikkje godtekne. Ei ufullstendig opprekning av referentar kan likevel takast med i ein merknad til definisjonen.
 
 [grid=none]
 |===
@@ -318,13 +320,13 @@ Andre termar enn den som står for det omgrepet definisjonen gjeld, skal ikkje f
 |===
 |Døme:
 a| [no-bullet]
-* Den følgjande definisjonen av tre inneheld ein skjult definisjon av grein:
+* Den følgjande definisjonen av _tre_ inneheld ein skjult definisjon av _grein_:
 
 * *tre* +
 fleirårig plante med meir eller mindre høg og kraftig stamme og forveda cellevev og greiner, *dvs. delar som veks ut frå stamma*
 |===
 
-Om det er nødvendig å definere grein, bør det gjerast i ein eigen termpost.
+Om det er nødvendig å definere _grein_, bør det gjerast i ein eigen termpost.
 
 === 2.6 Figurar [[kap2.6]]
 
