@@ -33,7 +33,9 @@ gruppe beslektede *standardiseringsemner* (1.2)
 * MERKNAD: Som eksempler på standardiseringsområder kan nevnes ingeniørarbeid, transport, jordbruk samt størrelser og enheter.
 |===
 
-Ytterligere opplysninger kan tilføyes og presenteres i henhold til ISO 10241. Termlister bør alltid utarbeides på en strukturert måte, uansett hvilket termpostformat som velges.  Ulike opplysninger må registreres hver for seg på bestemte plasser. Slike plasser kalles felt og har sitt eget symbol, for eksempel ”nbTE”, som betyr ’bokmålsterm’.
+Ytterligere opplysninger kan tilføyes og presenteres i henhold til ISO 10241.
+
+Termlister bør alltid utarbeides på en strukturert måte, uansett hvilket termpostformat som velges.  Ulike opplysninger må registreres hver for seg på bestemte plasser. Slike plasser kalles _felt_ og har sitt eget symbol, for eksempel ”nbTE”, som betyr ’bokmålsterm’.
 
 Opplysninger registreres hver for seg ikke minst for at det senere skal være mulig å behandle dem automatisk, eksempelvis ved konvertering fra ett termpostformat til et annet, ved overføring av materiale til en termbase eller ved uttrekking av enkelte opplysninger, for eksempel engelske termer til et engelsk register.
 
