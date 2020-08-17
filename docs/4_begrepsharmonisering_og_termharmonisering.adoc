@@ -8,6 +8,6 @@ Begrepsharmonisering innebærer alltid at forskjellige begrepssystemer sammenlig
 
 === 4.2 Harmonisering av termer og termsystemer [[kap4.2]]
 
-Det er verken mulig eller meningsfylt å harmonisere termer og termsystemer på forskjellige språk før begrepene er harmonisert. I harmoniseringsarbeidet er det viktig å ikke la seg forlede av termer som ligner hverandre i formen, for eksempel «falske venner». Et eksempel på falske venner er det engelske wrist (på norsk _håndledd_) og det norske _vrist_ (på engelsk instep).
+Det er verken mulig eller meningsfylt å harmonisere termer og termsystemer på forskjellige språk før begrepene er harmonisert. I harmoniseringsarbeidet er det viktig å ikke la seg forlede av termer som ligner hverandre i formen, for eksempel «falske venner». Et eksempel på falske venner er det engelske wrist (på norsk _håndledd_) og det norske _vrist_ (på engelsk _instep_).
 
 Ved termharmonisering skal ikke et språk påtvinges termdanningsmønstre som er fremmede for dets struktur. For å oppnå overensstemmelse mellom språk med hensyn til en term bør om mulig de samme kjennetegnene benyttes når termen dannes.
