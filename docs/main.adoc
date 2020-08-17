@@ -11,16 +11,20 @@ Heidi Suonuuti
 :toc-title: Innhald
 :toclevels: 3
 :sectanchors:
-:title-logo-image: images/image:digitaliseringsdirektoratet.png[pdfwidth=15vw]
-:title-logo-image: images/image:Sprakradet_logo.png[pdfwidth=15vw]
+:imagesdir: images
+:title-logo-image: image:Sprakradet_logo.png[pdfwidth=15vw]
+:title-logo-image: image:digitaliseringsdirektoratet.png[pdfwidth=38vw]
 
-image::images/Sprakradet_logo.png[width=20%, pdfwidth=15vw]
-image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=15vw]
+image::Sprakradet_logo.png[width=20%, pdfwidth=15vw]
+image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=38vw]
+
+:imagesdir:
 
 *Publisert*: under publisering +
 *Status*: under publisering
 
-WARNING: Denne er under publisering, justeringer kan komme.
+WARNING: Denne er under publisering, justeringer kan komme. +
+Gjeldende versjon vil bli publisert til https://data.norge.no/specification/termlosen/.
 
 [TIP]
 *Nedlasting av dokumentet*: +
@@ -34,11 +38,6 @@ Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Ter
 
 // Innhold her:
 
-// include::forord_engelsk_original.adoc[]
-
-// include::forord_engelsk_annenutgave.adoc[]
-
-// include::forord_norsk_versjon.adoc[]
 
 include::f1_forord_til_den_engelske_originalversjonen.adoc[]
 
