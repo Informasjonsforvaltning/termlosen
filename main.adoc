@@ -11,11 +11,9 @@ Heidi Suonuuti
 :toclevels: 3
 :sectanchors:
 :imagesdir: images
-:title-logo-image: image:Sprakradet_logo.jpg[pdfwidth=15vw]
-:title-logo-image: image:digitaliseringsdirektoratet.png[pdfwidth=38vw]
+:title-logo-image: image:logoene.png[pdfwidth=30vw]
 
-image::Sprakradet_logo.jpg[width=20%, pdfwidth=15vw]
-image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=38vw]
+image::logoene.png[width=50%, pdfwidth=30vw]
 
 :imagesdir:
 

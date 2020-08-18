@@ -11,6 +11,7 @@ Når vi tenkjer på ein referent, til dømes eit tre, vel vi i medvitet vårt ut
 
 [grid=none]
 |===
+
 a| Omgrepet _tre_ har mellom anna følgjande kjenneteikn: _fleirårig plante_, _har meir eller mindre høg og kraftig stamme_, _har forveda cellevev_, _har greiner_, _har røter_ footnote:[I _Norsk landbruksordbok_, band I (Det Norske Samlaget, Oslo 1979) er _tre_ definert slik:
 pass:p[ +]
 pass:p[ +]
@@ -35,27 +36,27 @@ I figur 1 er elementa i grunnplanet til pyramiden (referentar, termar og definis
 image::images/Fig1.png[]
 
 
-=== 1.2	Kjenneteikn [[kap1.2]]
+=== 1.2 Kjenneteikn [[kap1.2]]
 
 Kjenneteikn svarer til eigenskapar knytte til referentar. Kvart omgrep har vanlegvis ei mengd kjenneteikn. Mange av dei er så vanlege at dei ikkje eignar seg når vi skal identifisere eit omgrep, eller når vi skal skilje det frå andre omgrep. (Både tre og syklar er _konkrete_ og _harde_ og kan vere _grøne_.) *Åtskiljande kjenneteikn* er dei kjenneteikna som åleine eller saman med andre kjenneteikn avgrensar omgrepet og skil det frå andre omgrep. I definisjonar er det berre åt­skiljande kjenneteikn som skal nyttast.
 
 [grid=none]
 |===
-Til dømes er _har meir eller mindre høg og kraftig stamme_ eit åtskiljande kjenneteikn for tre når vi samanliknar dei med klatrande planter. Derimot har alle planter, tre òg, røter, og difor er kjenneteiknet _har røter_ ikkje eit åtskiljande kjenneteikn for tre.
+|Til dømes er _har meir eller mindre høg og kraftig stamme_ eit åtskiljande kjenneteikn for tre når vi samanliknar dei med klatrande planter. Derimot har alle planter, tre òg, røter, og difor er kjenneteiknet _har røter_ ikkje eit åtskiljande kjenneteikn for tre.
 |===
 
-=== 1.3	Omgrepsinnhald og omgrepsomfang [[kap1.3]]
+=== 1.3 Omgrepsinnhald og omgrepsomfang [[kap1.3]]
 
 Innhaldet til eit omgrep er alle dei kjenneteikna som utgjer om­ grepet. (Omgrepsinnhaldet til _tre_ omfattar til dømes kjenneteikna _fleirårig plante_, _har meir eller mindre høg og kraftig stamme_, _har grein­er_.) Omfanget til eit omgrep er alle dei referentane som omgrepet dekkjer. (Omgrepsomfanget til _tre_ omfattar alle furutre, grantre, bjørketre, eiketre, epletre og liknande, men ikkje slektstreet!) Både *omgrepsinnhald* og *omgrepsomfang* kan nyttast til å definere omgrep (sjå <<kap2.1, 2.1>>).
 
 
-=== 1.4	Omgrepssystem [[kap1.4]]
+=== 1.4 Omgrepssystem [[kap1.4]]
 
 Omgrep er ikkje uavhengige. Dei er alltid knytte til andre omgrep på ein eller annan måte, og dei dannar *omgrepssystem* som kan variere frå ganske enkle til svært komplekse. For at ein skal lukkast med å skrive definisjonar i terminologiarbeid, må ein analysere relasjona­ne mellom omgrepa og setje dei opp i omgrepssystem.
 
 Omgrepssystem blir klassifiserte etter kva typar relasjonar som finst mellom omgrepa. I all hovudsak skil vi mellom tre typar relasjonar: *generiske*, *partitive* og *assosiative*. I praksis arbeider vi ofte med ein kombinasjon av desse relasjonstypane (blanda omgrepssystem).
 
-==== 1.4.1 	Generiske relasjonar og omgrepssystem [[kap1.4.1]]
+==== 1.4.1 Generiske relasjonar og omgrepssystem [[kap1.4.1]]
 
 Det ligg føre ein generisk relasjon når to omgrep deler ei identisk mengd kjenneteikn, men eit av omgrepa, *underomgrepet*, har minst eitt åtskiljande kjenneteikn i tillegg. (Om til dømes _tre_ er *overomgrepet*, vil _bartre_ vere eit underomgrep med _har nåler_ og _er ein na­kenfrøa plante_ som åtskiljande kjenneteikn.) Underomgrepet har eit mindre omgrepsomfang (sjå <<kap1.3, 1.3>>) enn overomgrepet. (Det finst med andre ord færre bartre enn det finst tre.)
 
