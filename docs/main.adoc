@@ -11,7 +11,6 @@ Heidi Suonuuti
 :toclevels: 3
 :sectanchors:
 :imagesdir: images
-
 :title-logo-image: image:logoene.png[pdfwidth=30vw]
 
 image::logoene.png[width=50%, pdfwidth=30vw]
