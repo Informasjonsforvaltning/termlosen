@@ -11,6 +11,7 @@ Når vi tenkjer på ein referent, til dømes eit tre, vel vi i medvitet vårt ut
 
 [grid=none]
 |===
+
 a| Omgrepet _tre_ har mellom anna følgjande kjenneteikn: _fleirårig plante_, _har meir eller mindre høg og kraftig stamme_, _har forveda cellevev_, _har greiner_, _har røter_ footnote:[I _Norsk landbruksordbok_, band I (Det Norske Samlaget, Oslo 1979) er _tre_ definert slik:
 pass:p[ +]
 pass:p[ +]
