@@ -31,7 +31,7 @@ Denne nettutgaven kan også lastes ned link:document.pdf[som PDF].
 NOTE: *Innmelding av feil og mangler*: +
 Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/termlosen/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
 
-Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[den trykte utgaven av Termlosen]. Sidereferanser i den trykte utgaven er beholdt i denne nettutgaven, men med [.line-through]#gjennomstrekning# ev. kombinert med ny tekst i klammeparentes, f.eks. `[.line-through]#på side ...# [under ...]`.
+Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[den trykte utgaven av Termlosen fra Språkrådet]. Ved eventuelle uoverensstemmelser av innholdet mellom utgavene, gjelder den trykte utgaven fra Språkrådet. Sidereferanser i den trykte utgaven er beholdt i denne nettutgaven, men med [.line-through]#gjennomstrekning# ev. kombinert med ny tekst i klammeparentes, f.eks. `[.line-through]#på side ...# [under ...]`.
 
 // Innhold her:
 
