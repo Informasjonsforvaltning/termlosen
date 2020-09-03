@@ -55,7 +55,7 @@ helium, neon, argon, krypton, xenon, radon eller ununoctiumfootnote:[Legg merke 
 
 Sjå òg definisjonen av _bartre_ under <<kap2.5.3.3, 2.5.3.3>>.
 
-==== 2.2 Systematisk definisjon [[kap2.2]]
+=== 2.2 Systematisk definisjon [[kap2.2]]
 
 For at kommunikasjonen skal vere tydeleg, må omgrepa og relasjonane og skilnadene mellom dei vere eintydig skildra. Når ein skal skrive ein definisjon, er det difor viktig å vite korleis omgrepet passar inn i det aktuelle omgrepssystemet.
 
