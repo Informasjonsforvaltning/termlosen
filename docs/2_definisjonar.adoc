@@ -77,7 +77,7 @@ bartre av slekta _Picea_
 
 I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet til syne berre i definisjonen av eit av desse omgrepa (sjå òg <<kap2.5.3.2, 2.5.3.2>>).
 
-[grid=none, cols="1,10"]
+[grid=none, cols="1,20"]
 |===
 2+|Døme:
 |  1 | *saks*
