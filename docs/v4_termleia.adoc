@@ -10,7 +10,7 @@
 . Avgrens fagområdet. Bestem hvilke underområder som skal tas med, og hvilke som skal utelates.
 . Bestem hvilke språk som skal være med.
 . Få tak i ordlister og andre relevante dokumenter som er utgitt på det aktuelle fagområdet.
-. Få tak i tekster der relevante begreper kan identifiseres.
+. Få tak i tekster der relevante begreper kan identifiseres. + 
 MERK: Alle typer kildemateriale kan inneholde nyttige opplysninger.
 
 . Vurder om kildematerialet er pålitelig og relevant. Oversatt materiale må benyttes med forsiktighet.
