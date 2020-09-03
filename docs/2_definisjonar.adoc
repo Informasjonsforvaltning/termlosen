@@ -290,7 +290,7 @@ Eit partitivt underomgrep bør definerast som _del av ..._ berre dersom det eina
 Allmenne omgrep som _rot_, _grein_, _blad_, _skrue_, _brytar_, _hjul_ og liknande må ikkje definerast som om dei berre er ein del av ein særskild referent eller ein særskild type referentar.
 
 .Partitivt omgrepssystem i praksis
-image::images/Fig8.png[]
+image::images/Fig8.png[width=500, pdfwidth=60vw]
 
 I praksis blir definisjonane i *omgrepsdiagrammet* i figur 5 skrivne slik at dei følgjer diagrammet i figur 8.
 
@@ -340,6 +340,6 @@ a| [no-bullet]
 sentralt, laust cellevev i stamma hos visse planter +
 Sjå figur 9.
 a| .Merg
-image::images/Fig9.png[]
+image::images/Fig9.png[width=300, pdfwidth=30vw]
 |
 |===
