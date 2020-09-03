@@ -67,7 +67,7 @@ image::images/Fig2.png[width=500, pdfwidth=60vw]
 
 Eit omgrep kan delast inn i underomgrep på fleire måtar. Underinndelinga av tre kan til dømes byggje på følgjande kriterium:
 
-* anatomi (figur 2: _bartre_, lauvtre)
+* anatomi (figur 2: _bartre_, _lauvtre_)
 * artseigenskapar (figur 3: _lyskrevjande tre_, _skuggetre_)
 * bladfelling (figur 3: _sommargrønt tre_, _eviggrønt tre_)
 
