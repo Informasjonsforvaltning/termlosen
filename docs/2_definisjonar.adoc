@@ -77,23 +77,17 @@ bartre av slekta _Picea_
 
 I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet til syne berre i definisjonen av eit av desse omgrepa (sjå òg <<kap2.5.3.2, 2.5.3.2>>).
 
-[grid=none]
+[grid=none, cols="1,10"]
 |===
-|Døme:
-a|
-. *saks* +
-[no-bullet]
-* klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
-[no-bullet]
-* *saksblad* +
+2+|Døme:
+|  1 | *saks*
+| | klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
+| | *saksblad* +
 flatt blad av metall som har egg på den eine sida og ringforma handtak for finger i den eine enden
-
-. *år* +
-[no-bullet]
-* tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
-[no-bullet]
-* *årstid* +
-del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
+|  2 | *år*
+| | tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
+| | *årstid*
+| | del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
 |===
 
 Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis til med ein generell term som står for eit generisk overomgrep (sjå òg <<kap2.1.1, 2.1.1>>), og deretter kjem kjenneteikna som viser den relevante assosiative relasjonen.
