@@ -1,9 +1,9 @@
 == Termleia
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Organisere arbeidet*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -23,22 +23,23 @@ MERK: Alle typer kildemateriale kan inneholde nyttige opplysninger.
 . Sett opp en detaljert tidsplan.
 . Velg termpostformat og hensiktsmessig datamaskinell støtte for registreringen.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Registrere og strukturere opplysningene*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
+
 [start=14]
 . Analyser kildematerialet, og identifiser begreper som tilhører fagområdet.
 . Ekserper og registrer termer, definisjoner og andre relevante opplysninger om begrepene fra kildematerialet. Konsulter fageksperter.
 . Velg ut de begrepene som skal være med, og strukturer dem i begrepssystemer. Tegn begrepsdiagrammer. Kontroller og korriger utelatelser i eller overlapping mellom systemene. +
 MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres atskilt for hvert språk.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Definere begrepene*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -50,10 +51,10 @@ MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres ats
 . Erstatt ikke definisjoner med illustrasjoner.
 . Beskriv bare ett begrep i hver definisjon. Begreper som må forklares, skal defineres i egne termposter og ikke i definisjonen av et annet begrep.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Unngå feil i definisjonene*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -64,10 +65,10 @@ MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres ats
 . Skriv ikke definisjoner der begreper defineres ved hjelp av hverandre (ytre sirkel).
 . Skriv definisjoner som beskriver hva begrepet er, ikke hva det _ikke_ er.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Formulere definisjonene*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -78,10 +79,10 @@ MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres ats
 . Benytt samme ordklasse i definisjonen som i termen, dvs. bruk et verb som hovedord når et verb skal defineres, et substantiv når et substantiv skal defineres, osv.
 . Kontroller den språklige utformingen av definisjonen. Begynn med liten bokstav, og avslutt uten punktum. Om hovedordet i definisjonen er et substantiv, skal det stå i entall og vanligvis i ubestemt form uten artikkel.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Velge termer*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -90,10 +91,10 @@ MERK: Ved flerspråklig terminologiarbeid bør begrepssystemene struktureres ats
 . Finn ekvivalenter hvis termlista er flerspråklig, og oppgi graden av ekvivalens.
 . Hvis en term benyttes for flere enn ett begrep («har flere enn én betydning») på det aktuelle fagområdet, før da opp hvert begrep i en egen termpost (og gi ev. termene ulikt nummer).
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |*Sluttføre arbeidet*
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
