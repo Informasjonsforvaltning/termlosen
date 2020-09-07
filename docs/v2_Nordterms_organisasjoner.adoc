@@ -2,6 +2,10 @@
 
 (se http://www.nordterm.net/wiki/[www.nordterm.net/wiki])
 
-Nordterm er et samarbeidsforum for nordiske organisasjoner som beskjeftiger seg med terminologiarbeid, terminologiutdanning og terminologiforskning.
-
+[frame=none]
+|===
+|Nordterm er et samarbeidsforum for nordiske organisasjoner som beskjeftiger seg med terminologiarbeid, terminologiutdanning og terminologiforskning.
 Les mer på Nordterms nettsted: http://www.nordterm.net/wiki/[www.nordterm.net/wiki].
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
