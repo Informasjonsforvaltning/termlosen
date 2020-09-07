@@ -1,9 +1,9 @@
 == 5 Trinnene i et terminologiprosjekt [[kap5]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Hovedtrinnene i et terminologiprosjekt:
-{set:cellbgcolor:#DAE3F3}
 a|
  * vurdere behovene
  * bestemme målgruppen og avgrense fagområdet
@@ -35,10 +35,10 @@ Alt relevant materiale på fagområdet bør benyttes. Her kan man finne nyttige 
 
 === 5.4 Antall begreper [[kap5.4]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |En terminologigruppe kan behandle bare et begrenset antall begreper. Det å arbeide med et for stort antall begreper fører lett til inkonsekvens og utelatelser og er dessuten svært tidkrevende. Erfaring har vist at dersom antallet begreper overstiger 200, bør et prosjekt som regel deles opp i delprosjekter som blir gjennomført samtidig eller etter tur.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
