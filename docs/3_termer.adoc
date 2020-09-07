@@ -3,8 +3,12 @@
 
 === 3.1 Typer termer [[kap3.1]]
 
-En term kan være en *enkel term*, det vil si ett rotmorfem (_hus_, _lys_) alene eller med affikser (_belysning_), en *sammensatt term*, det vil si ett ord satt sammen av to eller flere ord (_miljørapport_), eller en *flerordsterm* (_temperert sone_). I en termliste føres de fleste termene opp som substantiv i entall uten ubestemt artikkel (_miljørapport_), men termene kan også forekomme som substantiv i flertall (_finansielle midler_), verb (_resirkulere_), adjektiv (_basisk_) og adverb (_oppstrøms_).
-
+[frame=none]
+|===
+|En term kan være en *enkel term*, det vil si ett rotmorfem (_hus_, _lys_) alene eller med affikser (_belysning_), en *sammensatt term*, det vil si ett ord satt sammen av to eller flere ord (_miljørapport_), eller en *flerordsterm* (_temperert sone_). I en termliste føres de fleste termene opp som substantiv i entall uten ubestemt artikkel (_miljørapport_), men termene kan også forekomme som substantiv i flertall (_finansielle midler_), verb (_resirkulere_), adjektiv (_basisk_) og adverb (_oppstrøms_).
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 === 3.2 Krav til hvordan termer velges ut og dannes [[kap3.2]]
 
