@@ -1,18 +1,22 @@
 == 5 Trinnene i et terminologiprosjekt [[kap5]]
 
-Hovedtrinnene i et terminologiprosjekt:
-
-* vurdere behovene
-* bestemme målgruppen og avgrense fagområdet
-* identifisere begrepene
-* samle inn og registrere terminologiske data
-* utarbeide termliste
-* utarbeide begrepssystem og tegne begrepsdiagram
-* skrive definisjoner
-* velge eller danne termer
-* gå gjennom begrepsdiagrammene
-
-I praksis utføres mange av disse trinnene samtidig.
+[frame=none]
+|===
+|Hovedtrinnene i et terminologiprosjekt:
+{set:cellbgcolor:#DAE3F3}
+a|
+ * vurdere behovene
+ * bestemme målgruppen og avgrense fagområdet
+ * identifisere begrepene
+ * samle inn og registrere terminologiske data
+ * utarbeide termliste
+ * utarbeide begrepssystem og tegne begrepsdiagram
+ * skrive definisjoner
+ * velge eller danne termer
+ * gå gjennom begrepsdiagrammene
+| I praksis utføres mange av disse trinnene samtidig.
+|===
+{set:cellbgcolor!}
 
 I dette kapitlet gis det veiledning til grupper som skal utarbeide termlister. Alle underpunktene er ikke like aktuelle for alle typer terminologiarbeid som kan forekomme.
 
@@ -31,7 +35,12 @@ Alt relevant materiale på fagområdet bør benyttes. Her kan man finne nyttige 
 
 === 5.4 Antall begreper [[kap5.4]]
 
-En terminologigruppe kan behandle bare et begrenset antall begreper. Det å arbeide med et for stort antall begreper fører lett til inkonsekvens og utelatelser og er dessuten svært tidkrevende. Erfaring har vist at dersom antallet begreper overstiger 200, bør et prosjekt som regel deles opp i delprosjekter som blir gjennomført samtidig eller etter tur.
+[frame=none]
+|===
+|En terminologigruppe kan behandle bare et begrenset antall begreper. Det å arbeide med et for stort antall begreper fører lett til inkonsekvens og utelatelser og er dessuten svært tidkrevende. Erfaring har vist at dersom antallet begreper overstiger 200, bør et prosjekt som regel deles opp i delprosjekter som blir gjennomført samtidig eller etter tur.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 === 5.5 Tidsplan [[kap5.5]]
 
