@@ -1,7 +1,11 @@
 == 1 Omgrepsanalyse [[kap1]]
 
-Terminologiarbeid er ei tverrfagleg verksemd som går ut på å ordne og overføre kunnskap. Det grunnleggjande elementet i arbeidet er omgrepet. Alt terminologiarbeid skal byggje på at omgrepa og relasjonane mellom dei blir analyserte og strukturerte.
-
+[frame=none]
+|===
+|Terminologiarbeid er ei tverrfagleg verksemd som går ut på å ordne og overføre kunnskap. Det grunnleggjande elementet i arbeidet er omgrepet. Alt terminologiarbeid skal byggje på at omgrepa og relasjonane mellom dei blir analyserte og strukturerte.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 === 1.1 Tilhøvet mellom referent, omgrep, definisjon og term [[kap1.1]]
 
