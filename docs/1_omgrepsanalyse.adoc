@@ -1,7 +1,11 @@
 == 1 Omgrepsanalyse [[kap1]]
 
-Terminologiarbeid er ei tverrfagleg verksemd som går ut på å ordne og overføre kunnskap. Det grunnleggjande elementet i arbeidet er omgrepet. Alt terminologiarbeid skal byggje på at omgrepa og relasjonane mellom dei blir analyserte og strukturerte.
-
+[frame=none]
+|===
+|Terminologiarbeid er ei tverrfagleg verksemd som går ut på å ordne og overføre kunnskap. Det grunnleggjande elementet i arbeidet er omgrepet. Alt terminologiarbeid skal byggje på at omgrepa og relasjonane mellom dei blir analyserte og strukturerte.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 === 1.1 Tilhøvet mellom referent, omgrep, definisjon og term [[kap1.1]]
 
@@ -33,7 +37,7 @@ Eit omgrep som berre er knytt til ein einaste referent, kallar vi eit *individua
 I figur 1 er elementa i grunnplanet til pyramiden (referentar, termar og definisjonar) konkrete eller abstrakte fenomen i den verkelege verda eller uttrykk i eit språk. Omgrepa, som er plasserte i toppen av pyramiden, er mentale førestellingar. For at vi skal kunne snakke om dei, må vi bruke fastsette uttrykk, det vil seie termar eller definisjon­ ar som viser til dei. For meir detaljerte opplysningar om omgreps­ analyse, sjå ISO 704.
 
 .Tilhøvet mellom referent, omgrep, definisjon og term
-image::images/Fig1.png[]
+image::images/Fig1.png[width=400, pdfwidth=50vw]
 
 
 === 1.2 Kjenneteikn [[kap1.2]]
@@ -63,25 +67,25 @@ Det ligg føre ein generisk relasjon når to omgrep deler ei identisk mengd kjen
 Eit generisk omgrepssystem byggjer på dei generiske relasjonane mellom omgrepa. Overomgrepet er delt inn i fleire underomgrep. Det generiske omgrepssystemet har ofte fleire nivå. Eit underomgrep kan vere overomgrep for ei anna mengd underomgrep og så vidare. (Til dømes kan bartre delast inn i _gran_ og _furu_.) Sjå figur 2.
 
 .Generisk omgrepssystem for _tre_
-image::images/Fig2.png[]
+image::images/Fig2.png[width=500, pdfwidth=60vw]
 
 Eit omgrep kan delast inn i underomgrep på fleire måtar. Underinndelinga av tre kan til dømes byggje på følgjande kriterium:
 
-* anatomi (figur 2: _bartre_, lauvtre)
+* anatomi (figur 2: _bartre_, _lauvtre_)
 * artseigenskapar (figur 3: _lyskrevjande tre_, _skuggetre_)
 * bladfelling (figur 3: _sommargrønt tre_, _eviggrønt tre_)
 
 Underomgrep som er sette opp ved sida av kvarandre etter same inndelingskriterium, blir kalla *sideomgrep*. I figur 3 er til dømes _lyskrevjande tre_ og _skuggetre_ sideomgrep, medan _lyskrevjande tre_ og _sommargrønt tre_ ikkje er det.
 
 .To generiske omgrepssystem for _tre_, med ulikt inndelingskriterium
-image::images/Fig3.png[]
+image::images/Fig3.png[width=500, pdfwidth=60vw]
 
 Underinndelingane i figur 3 er parallelle og uavhengige av kvarandre og kan sjåast som underinndelingar av eit omgrep etter to ulike inndelingskriterium. I terminologiarbeid kan desse underinndelingane handsamast som åtskilde omgrepssystem med same overomgrep. Det er likevel ofte enklare å skjøne mangfaldet i omgrepsrelasjonar dersom omgrepa er slegne saman slik at dei dannar eitt omgrepssystem med fleire inndelingskriterium (sjå figur 4).
 
 Når eit omgrepssystem blir framstilt i eit trediagram, kan inndelingskriteria skrivast langs linene for underinndelingane.
 
 .Generisk omgrepssystem for tre, med fleire inndelingskriterium
-image::images/Fig4.png[]
+image::images/Fig4.png[width=500, pdfwidth=55vw]
 
 ==== 1.4.2 Partitive relasjonar og omgrepssystem [[kap1.4.2]]
 
@@ -90,14 +94,14 @@ Det ligg føre ein partitiv relasjon når overomgrepet er knytt til referenten s
 Partitive omgrepssystem kan framstå på mange måtar. Dei delane som utgjer heilskapen, kan alle vere like (som dei to oksygenatoma som utgjer eit oksygenmolekyl) eller ulike (som dei fire årstidene som utgjer eit år). I nokre tilfelle er talet på delar avgjerande (to oksygenatom dannar eit oksygenmolekyl, tre oksygenatom dannar eit ozonmolekyl), andre gonger er det ikkje avgjerande (ein stol kan ha frå eitt til fire eller fleire bein). Heilskapen kan vere eit lukka system med visse delar (eit år) eller eit ope system som tillet at fleire delar kan takast med (elektrisk utstyr er ein heilskap som omfattar minst eitt elektrisk apparat).
 
 .Partitivt omgrepssystem for tre
-image::images/Fig5.png[]
+image::images/Fig5.png[width=500, pdfwidth=60vw]
 
 Figur 5 viser eit partitivt omgrepssystem som er metodisk og korrekt sett opp. I praksis ville nok ikkje uttrykka _trerot_ og _tregrein_ bli førde opp som termar i ei termliste for tre. Dei ville bli bytte ut med _rot_ og _grein_, som viser til meir allmenne omgrep. Meir om dette under <<kap2.5.3.2, 2.5.3.2>> og i figur 8.
 
 På same måten som generiske omgrepssystem kan partitive omgrepssystem ha fleire nivå og inndelingskriterium (sjå figur 6).
 
 .Partitivt omgrepssystem for tre, med fleire inndelingskriterium
-image::images/Fig6.png[]
+image::images/Fig6.png[width=500, pdfwidth=60vw]
 
 ==== 1.4.3 Assosiative relasjonar og omgrepssystem [[kap1.4.3]]
 
@@ -115,7 +119,7 @@ Assosiative relasjonar dekkjer ei lang rekkje ikkje-hierarkiske relasjonar, til 
 Dei assosiative relasjonane mellom omgrepa i eit omgrepssystem kan variere (sjå figur 7).
 
 .Assosiativt omgrepssystem
-image::images/Fig7.png[]
+image::images/Fig7.png[width=650, pdfwidth=75vw]
 
 Relasjonar:
 
