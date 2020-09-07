@@ -15,10 +15,10 @@ Følgende gjelder for termer og definisjoner:
 
 === 6.2 Termposten [[kap6.2]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Resultatet av terminologiarbeid presenteres i *termposter*. Hver termpost inneholder opplysninger om bare ett begrep. Dersom en term betegner flere begreper, skal begrepene beskrives i hver sin termpost.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -40,10 +40,10 @@ gruppe beslektede *standardiseringsemner* (1.2)
 
 Ytterligere opplysninger kan tilføyes og presenteres i henhold til ISO 10241.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Termlister bør alltid utarbeides på en strukturert måte, uansett hvilket termpostformat som velges.  Ulike opplysninger må registreres hver for seg på bestemte plasser. Slike plasser kalles _felt_ og har sitt eget symbol, for eksempel ”nbTE”, som betyr ’bokmålsterm’.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
