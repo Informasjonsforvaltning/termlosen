@@ -1,11 +1,10 @@
 == 2 Definisjonar [[kap2]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Kvaliteten på eit terminologiarbeid avheng hovudsakleg av kvaliteten på definisjonane.
-{set:cellbgcolor:#DAE3F3}
 |Ein definisjon skal gjelde _berre eitt_ omgrep. Dersom ein term står for fleire enn eitt omgrep på det fagområdet som blir handsama, skal det gjerast greie for desse omgrepa i særskilde termpostar i ordlista (sjå òg <<kap6.2, 6.2>>).
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -62,10 +61,10 @@ Sjå òg definisjonen av _bartre_ under <<kap2.5.3.3, 2.5.3.3>>.
 
 === 2.2 Systematisk definisjon [[kap2.2]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |For at kommunikasjonen skal vere tydeleg, må omgrepa og relasjonane og skilnadene mellom dei vere eintydig skildra. Når ein skal skrive ein definisjon, er det difor viktig å vite korleis omgrepet passar inn i det aktuelle omgrepssystemet.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -115,10 +114,10 @@ Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis 
 
 === 2.3 Kor nøyaktig skal definisjonen vere? [[kap2.3]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Definisjonar skal vere så kortfatta som mogeleg. Definisjonar som er skrivne med omtanke, skal innehalde berre dei opplysningane som trengst for å plassere omgrepet riktig i omgrepssystemet.  Alle tilleggsopplysningar og døme bør stå i ein merknad. Slike tilleggsopplysningar kan til dømes vere viktige kjenneteikn som ikkje er vesentlege, eller ei opprekning av typiske referentar som omgrepsomfanget omfattar.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -279,10 +278,10 @@ a| [no-bullet]
 grunnleggjande byggjeelement i skjorereir
 |===
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Når omgrep som er i allmenn bruk, blir definerte som om dei berre høyrer til eit særskilt fagområde, blir det vanskelegare å nytte definisjonar frå andre termlister, og det fører til dobbeltarbeid. Sidan terminologiarbeid er kostbart, bør grupper som arbeider på nærskylde fagområde, unngå å definere dei same omgrepa kvar for seg.
-{set:cellbgcolor:#DAE3F3}
 |I somme tilfelle kan det likevel vere nødvendig å avgrense definisjonen til eit særskilt fagområde. Då bør fagområdet stå i vinkelparentes føre definisjonen.
 |===
 {set:cellbgcolor!}
@@ -327,10 +326,10 @@ MERKNAD: Vanlege typar bartre er seder, sypress, einer, furu, gran, kjempegran, 
 
 Ein definisjon skal omfatte berre eitt omgrep. Dersom ein term viser til fleire enn eitt relevant omgrep på det aktuelle fagområdet, skal han ha fleire termpostar.
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Andre termar enn den som står for det omgrepet definisjonen gjeld, skal ikkje forklarast inne i definisjonen. Ein definisjon skal berre vise til omgrep som er kjende for dei som skal bruke definisjonen, eller som er definerte andre stader i termlista. Alle omgrep som krev forklaringar, skal definerast i eigne termpostar.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
@@ -348,10 +347,10 @@ Om det er nødvendig å definere _grein_, bør det gjerast i ein eigen termpost.
 
 === 2.6 Figurar [[kap2.6]]
 
-[frame=none]
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
 |===
 |Ein kan bruke illustrasjonar for å utfylle definisjonane, ikkje for å avløyse dei. Om ein nyttar illustrasjonar, skal dei helst stå på same sida som den termposten dei høyrer til.
-{set:cellbgcolor:#DAE3F3}
 |===
 {set:cellbgcolor!}
 
