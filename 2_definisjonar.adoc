@@ -1,8 +1,13 @@
 == 2 Definisjonar [[kap2]]
 
-Kvaliteten på eit terminologiarbeid avheng hovudsakleg av kvaliteten på definisjonane.
-
-Ein definisjon skal gjelde _berre eitt_ omgrep. Dersom ein term står for fleire enn eitt omgrep på det fagområdet som blir handsama, skal det gjerast greie for desse omgrepa i særskilde termpostar i ordlista (sjå òg <<kap6.2, 6.2>>).
+[frame=none]
+|===
+|Kvaliteten på eit terminologiarbeid avheng hovudsakleg av kvaliteten på definisjonane.
+{set:cellbgcolor:#DAE3F3}
+|Ein definisjon skal gjelde _berre eitt_ omgrep. Dersom ein term står for fleire enn eitt omgrep på det fagområdet som blir handsama, skal det gjerast greie for desse omgrepa i særskilde termpostar i ordlista (sjå òg <<kap6.2, 6.2>>).
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 Definisjonane skal vere skrivne på ein slik måte at omgrepa står på rett plass og er høveleg skildra i sine respektive omgrepssystem. Før ein tek til å skrive sjølve definisjonen, er det difor nødvendig å identifisere
 
@@ -55,9 +60,14 @@ helium, neon, argon, krypton, xenon, radon eller ununoctiumfootnote:[Legg merke 
 
 Sjå òg definisjonen av _bartre_ under <<kap2.5.3.3, 2.5.3.3>>.
 
-==== 2.2 Systematisk definisjon [[kap2.2]]
+=== 2.2 Systematisk definisjon [[kap2.2]]
 
-For at kommunikasjonen skal vere tydeleg, må omgrepa og relasjonane og skilnadene mellom dei vere eintydig skildra. Når ein skal skrive ein definisjon, er det difor viktig å vite korleis omgrepet passar inn i det aktuelle omgrepssystemet.
+[frame=none]
+|===
+|For at kommunikasjonen skal vere tydeleg, må omgrepa og relasjonane og skilnadene mellom dei vere eintydig skildra. Når ein skal skrive ein definisjon, er det difor viktig å vite korleis omgrepet passar inn i det aktuelle omgrepssystemet.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 I generiske omgrepssystem byggjer innhaldsdefinisjonen alltid på det næraste overomgrepet. Deretter blir åtskiljande kjenneteikn valde ut for å vise relasjonane mellom over- og underomgrepa og mellom sideomgrepa.
 
@@ -77,23 +87,17 @@ bartre av slekta _Picea_
 
 I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet til syne berre i definisjonen av eit av desse omgrepa (sjå òg <<kap2.5.3.2, 2.5.3.2>>).
 
-[grid=none]
+[grid=none, cols="1,20"]
 |===
-|Døme:
-a|
-. *saks* +
-[no-bullet]
-* klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
-[no-bullet]
-* *saksblad* +
+2+|Døme:
+|  1 | *saks*
+| | klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
+| | *saksblad* +
 flatt blad av metall som har egg på den eine sida og ringforma handtak for finger i den eine enden
-
-. *år* +
-[no-bullet]
-* tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
-[no-bullet]
-* *årstid* +
-del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
+|  2 | *år*
+| | tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
+| | *årstid*
+| | del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
 |===
 
 Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis til med ein generell term som står for eit generisk overomgrep (sjå òg <<kap2.1.1, 2.1.1>>), og deretter kjem kjenneteikna som viser den relevante assosiative relasjonen.
@@ -111,7 +115,12 @@ Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis 
 
 === 2.3 Kor nøyaktig skal definisjonen vere? [[kap2.3]]
 
-Definisjonar skal vere så kortfatta som mogeleg. Definisjonar som er skrivne med omtanke, skal innehalde berre dei opplysningane som trengst for å plassere omgrepet riktig i omgrepssystemet.  Alle tilleggsopplysningar og døme bør stå i ein merknad. Slike tilleggsopplysningar kan til dømes vere viktige kjenneteikn som ikkje er vesentlege, eller ei opprekning av typiske referentar som omgrepsomfanget omfattar.
+[frame=none]
+|===
+|Definisjonar skal vere så kortfatta som mogeleg. Definisjonar som er skrivne med omtanke, skal innehalde berre dei opplysningane som trengst for å plassere omgrepet riktig i omgrepssystemet.  Alle tilleggsopplysningar og døme bør stå i ein merknad. Slike tilleggsopplysningar kan til dømes vere viktige kjenneteikn som ikkje er vesentlege, eller ei opprekning av typiske referentar som omgrepsomfanget omfattar.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 [grid=none]
 |===
@@ -270,9 +279,13 @@ a| [no-bullet]
 grunnleggjande byggjeelement i skjorereir
 |===
 
-Når omgrep som er i allmenn bruk, blir definerte som om dei berre høyrer til eit særskilt fagområde, blir det vanskelegare å nytte definisjonar frå andre termlister, og det fører til dobbeltarbeid. Sidan terminologiarbeid er kostbart, bør grupper som arbeider på nærskylde fagområde, unngå å definere dei same omgrepa kvar for seg.
-
-I somme tilfelle kan det likevel vere nødvendig å avgrense definisjonen til eit særskilt fagområde. Då bør fagområdet stå i vinkelparentes føre definisjonen.
+[frame=none]
+|===
+|Når omgrep som er i allmenn bruk, blir definerte som om dei berre høyrer til eit særskilt fagområde, blir det vanskelegare å nytte definisjonar frå andre termlister, og det fører til dobbeltarbeid. Sidan terminologiarbeid er kostbart, bør grupper som arbeider på nærskylde fagområde, unngå å definere dei same omgrepa kvar for seg.
+{set:cellbgcolor:#DAE3F3}
+|I somme tilfelle kan det likevel vere nødvendig å avgrense definisjonen til eit særskilt fagområde. Då bør fagområdet stå i vinkelparentes føre definisjonen.
+|===
+{set:cellbgcolor!}
 
 [grid=none]
 |===
@@ -290,7 +303,7 @@ Eit partitivt underomgrep bør definerast som _del av ..._ berre dersom det eina
 Allmenne omgrep som _rot_, _grein_, _blad_, _skrue_, _brytar_, _hjul_ og liknande må ikkje definerast som om dei berre er ein del av ein særskild referent eller ein særskild type referentar.
 
 .Partitivt omgrepssystem i praksis
-image::images/Fig8.png[]
+image::images/Fig8.png[width=500, pdfwidth=60vw]
 
 I praksis blir definisjonane i *omgrepsdiagrammet* i figur 5 skrivne slik at dei følgjer diagrammet i figur 8.
 
@@ -314,7 +327,12 @@ MERKNAD: Vanlege typar bartre er seder, sypress, einer, furu, gran, kjempegran, 
 
 Ein definisjon skal omfatte berre eitt omgrep. Dersom ein term viser til fleire enn eitt relevant omgrep på det aktuelle fagområdet, skal han ha fleire termpostar.
 
-Andre termar enn den som står for det omgrepet definisjonen gjeld, skal ikkje forklarast inne i definisjonen. Ein definisjon skal berre vise til omgrep som er kjende for dei som skal bruke definisjonen, eller som er definerte andre stader i termlista. Alle omgrep som krev forklaringar, skal definerast i eigne termpostar.
+[frame=none]
+|===
+|Andre termar enn den som står for det omgrepet definisjonen gjeld, skal ikkje forklarast inne i definisjonen. Ein definisjon skal berre vise til omgrep som er kjende for dei som skal bruke definisjonen, eller som er definerte andre stader i termlista. Alle omgrep som krev forklaringar, skal definerast i eigne termpostar.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 [grid=none]
 |===
@@ -330,7 +348,12 @@ Om det er nødvendig å definere _grein_, bør det gjerast i ein eigen termpost.
 
 === 2.6 Figurar [[kap2.6]]
 
-Ein kan bruke illustrasjonar for å utfylle definisjonane, ikkje for å avløyse dei. Om ein nyttar illustrasjonar, skal dei helst stå på same sida som den termposten dei høyrer til.
+[frame=none]
+|===
+|Ein kan bruke illustrasjonar for å utfylle definisjonane, ikkje for å avløyse dei. Om ein nyttar illustrasjonar, skal dei helst stå på same sida som den termposten dei høyrer til.
+{set:cellbgcolor:#DAE3F3}
+|===
+{set:cellbgcolor!}
 
 [grid=none]
 |===
@@ -340,6 +363,6 @@ a| [no-bullet]
 sentralt, laust cellevev i stamma hos visse planter +
 Sjå figur 9.
 a| .Merg
-image::images/Fig9.png[]
+image::images/Fig9.png[width=300, pdfwidth=30vw]
 |
 |===
