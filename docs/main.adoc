@@ -17,11 +17,9 @@ image::logoene.png[width=50%, pdfwidth=30vw]
 
 :imagesdir:
 
-*Publisert*: under publisering +
-*Status*: under publisering
+*Publisert*: 8. september 2020 +
+*Status*: Gjeldende
 
-WARNING: Denne er under publisering, justeringer kan komme. +
-Gjeldende versjon vil bli publisert til https://data.norge.no/specification/termlosen/.
 
 [TIP]
 *Nedlasting av dokumentet*: +
