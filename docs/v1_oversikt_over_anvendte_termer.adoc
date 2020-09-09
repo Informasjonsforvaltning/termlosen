@@ -1,0 +1,263 @@
+== Oversikt over anvendte termer
+
+Alle termene (på to unntak nær) er hentet fra _Nordterm 13, Terminologiens terminologi på nordisk_, som er en oversikt over sentrale terminologitermer utarbeidet av den nordiske terminologisammenslutningen _Nordterm_. Termene er tilgjengelige på <<Nordterms organisasjoner, Nordterms nettsted>> [line-through]#(se s. 44)#.
+
+[ Språkkodene som er brukt er i henhold til ISO 639-1: `nb` = bokmål, `nn` = nynorsk, `da` = dansk, `en` = engelsk, `fi` = finsk, `is` = islandsk, `se` = nordsamisk og `sv` = svensk. ]
+
+nb *allmennbegrep* +
+nn *allmennomgrep* +
+da generelt begreb +
+en general concept +
+fi yleiskäsite +
+is almennt hugtak +
+se oktasaš doaba +
+sv allmänbegrepp +
+[line-through]#(Se side 15.)#
+[<<kap1.1, Kap. 1.1>>]
+
+nb *anbefalt term* +
+nn *tilrådd term* +
+da anbefalet term +
+en preferred term +
+fi suositettava termi +
+is æskilegt íðorð +
+se ávžžuhuvvon tearbma +
+sv rekommenderad term +
+[line-through]#(Se side 33.)#
+[<<kap3.3, Kap. 3.3>>]
+
+nb *atskillende kjennetegn* +
+nn *åtskiljande kjenneteikn* +
+da adskillende karakteristisk +
+træk, +
+adskillende træk +
+en delimiting characteristic +
+fi erottava piirre, +
+erottava käsitepiirre +
+is aðgreinandi einkenni, +
+aðgreinieinkenni +
+se earuheaddji dovdomearka +
+sv särskiljande kännetecken +
+[line-through]#(Se side 16.)#
+[<<kap1.2, Kap. 1.2>>]
+
+nb *begrep* +
+nn *omgrep* +
+da begreb +
+en concept +
+fi käsite +
+is hugtak +
+se doaba +
+sv begrepp +
+[line-through]#(Se side 15.)#
+[<<kap1.1, Kap. 1.1>>]
+
+nb *begrepsdiagram* +
+nn *omgrepsdiagram* +
+da begrebsdiagram +
+en concept diagram +
+fi käsitekaavio +
+is hugtakavenslamynd +
+se doabaskovvi +
+sv begreppsdiagram +
+[line-through]#(Se side 30.)#
+[<<kap2.5.3.2, Kap. 2.5.3.2>>]
+
+nb *begrepsharmonisering* +
+nn *omgrepsharmonisering* +
+da begrebsharmonisering +
+en concept harmonization +
+fi käsiteharmonisointi +
+is hugtakasamræming +
+se doabaharmoniseren +
+sv begreppsharmonisering +
+[line-through]#(Se side 34.)#
+[<<kap4, Kap. 4>>]
+
+nb *begrepsinnhold* +
+nn *omgrepsinnhald* +
+da intension +
+en intension +
+fi käsitteen sisältö +
+is inntak +
+se doahpaga sisdoallu +
+sv intension +
+[line-through]#(Se side 17.)#
+[<<kap1.3, Kap. 1.3>>]
+
+nb *begrepsomfang* +
+nn *omgrepsomfang* +
+da ekstension +
+en extension +
+fi käsitteen ala +
+is umtak +
+se doahpaga viidodat +
+sv extension +
+[line-through]#(Se side 17.)#
+[<<kap1.3, Kap. 1.3>>]
+
+nb *begrepssystem* +
+nn *omgrepssystem* +
+da begrebssystem +
+en concept system +
+fi käsitejärjestelmä +
+is hugtakakerfi +
+se doabavuogádat +
+sv begreppssystem +
+[line-through]#(Se side 17.)#
+[<<kap1.4, Kap. 1.4>>]
+
+nb *definisjon* +
+nn *definisjon* +
+da definition +
+en definition +
+fi määritelmä +
+is skilgreining +
+se meroštallan +
+sv definition +
+[line-through]#(Se side 15 og 23 f.)#
+[<<kap1.1, Kap. 1.1>> og <<kap2, 2>>]
+
+nb *frarådet term* +
+nn *frårådd term* +
+da frarådet term +
+en deprecated term +
+fi hylättävä termi +
+is óæskilegt íðorð +
+se hilggohastearbma +
+sv avrådd term +
+[line-through]#(Se side 33.)#
+[<<kap3.3, Kap. 3.3>>]
+
+nb *individualbegrep* +
+nn *individualomgrep* +
+da individuelt begreb +
+en individual concept +
+fi yksilökäsite +
+is stakt hugtak +
+se ovttaskas doaba +
+sv individualbegrepp +
+[line-through]#(Se side 15.)#
+[<<kap1.1, Kap. 1.1>>]
+
+nb *kjennetegn* +
+nn *kjenneteikn* +
+da karakteristisk træk +
+en characteristic +
+fi käsitepiirre +
+is einkenni +
+se doahpaga dovdomearka +
+sv kännetecken +
+[line-through]#(Se side 15.)#
+[<<kap1.2, Kap. 1.2>>]
+
+nb *overbegrep* +
+nn *overomgrep* +
+da overbegreb +
+en superordinate concept +
+fi yläkäsite +
+is yfirhugtak +
+se badjedoaba +
+sv överordnat begrepp +
+[line-through]#(Se side 17.)#
+[<<kap1.4.1, Kap. 1.4.1>>]
+
+nb *referent* +
+nn *referent* +
+da objekt +
+en object +
+fi tarkoite +
+is vísimið +
+se čuozáhat +
+sv referent +
+[line-through]#(Se side 15.)#
+[<<kap1.1, Kap. 1.1>>]
+
+nb *sidebegrep* +
+nn *sideomgrep* +
+da sideordnet begreb +
+en coordinate concept +
+fi vieruskäsite +
+is hliðskipað hugtak +
+se báldadoaba +
+sv sidoordnat begrepp +
+[line-through]#(Se side 18.)#
+[<<kap1.4.1, Kap. 1.4.1>>]
+
+nb *synonym* +
+nn *synonym* +
+da synonym +
+en synonym +
+fi synonyymi +
+is samheiti +
+se synonyma +
+sv synonym +
+[line-through]#(Se side 33.)#
+[<<kap3.3, Kap. 3.3>>]
+
+nb *term* +
+nn *term* +
+da term +
+en term +
+fi termi +
+is íðorð +
+se tearbma +
+sv term +
+[line-through]#(Se side 5 og 33.)#
+[<<kap1.1, Kap. 1.1>> og <<kap3, 3>>]
+
+nb *termharmonisering* +
+nn *termharmonisering* +
+da termharmonisering +
+en term harmonization +
+fi termiharmonisointi +
+is íðorðasamræming +
+se tearbmaharmoniseren +
+sv termharmonisering +
+[line-through]#(Se side 34.)#
+[<<kap4, Kap. 4>>]
+
+nb *terminolog* +
+nn *terminolog* +
+da terminolog +
+en terminologist +
+fi terminologi +
+is íðorðafræðingur +
+se terminologa +
+sv terminolog +
+[line-through]#(Se side 13.)#
+[<<Innleiing, Innleiing>>]
+
+nb *termpost* +
+nn *termpost* +
+da termpost +
+en terminological entry +
+fi termitietue +
+is fletta +
+se tearbmamearkkuš +
+sv termpost +
+[line-through]#(Se side 38.)#
+[<<kap6.2, Kap. 6.2>>]
+
+nb *tillatt term* +
+nn *tillaten term* +
+da godkendt term, +
+tilladt term +
+en admitted term +
+fi sallittava termi +
+is heimilað íðorð +
+se dohkalaš tearbma +
+sv tillåten term +
+[line-through]#(Se side 33.)#
+[<<kap3.3, Kap. 3.3>>]
+
+nb *underbegrep* +
+nn *underomgrep* +
+da underbegreb +
+en subordinate concept +
+fi alakäsite +
+is undirhugtak +
+se vuolledoaba +
+sv underordnat begrepp +
+[line-through]#(Se side 17.)#
+[<<kap1.4.1, Kap. 4.1>>]

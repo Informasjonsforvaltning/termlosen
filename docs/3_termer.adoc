@@ -1,0 +1,20 @@
+== 3 Termer [[kap3]]
+
+
+=== 3.1 Typer termer [[kap3.1]]
+
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
+|===
+|En term kan være en *enkel term*, det vil si ett rotmorfem (_hus_, _lys_) alene eller med affikser (_belysning_), en *sammensatt term*, det vil si ett ord satt sammen av to eller flere ord (_miljørapport_), eller en *flerordsterm* (_temperert sone_). I en termliste føres de fleste termene opp som substantiv i entall uten ubestemt artikkel (_miljørapport_), men termene kan også forekomme som substantiv i flertall (_finansielle midler_), verb (_resirkulere_), adjektiv (_basisk_) og adverb (_oppstrøms_).
+|===
+{set:cellbgcolor!}
+
+=== 3.2 Krav til hvordan termer velges ut og dannes [[kap3.2]]
+
+Den termen som velges for et begrep, skal være språklig korrekt, det vil si at den skal følge de normer og regler som gjelder for det aktuelle språket. En term bør helst også gjenspeile noen av begrepets kjennetegn (være _motivert_), være kort og tillate bøyning og avledning. Se ISO 704 for mer detaljerte opplysninger om hvordan termer dannes.
+
+
+=== 3.3 Anbefalte, tillatte og frarådede termer [[kap3.3]]
+
+Det ideelle er at det fins bare én term for hvert begrep. Dersom flere termer er i bruk for samme begrep, bør man derfor velge bare én term som *anbefalt term*. I spesielle tilfeller kan det være behov for å anbefale flere enn én term. *Synonymer*, medregnet forkortelser, bør føres opp som *tillatte* eller *frarådede* termer. I unntakstilfeller kan en forkortelse velges som anbefalt term, men bare dersom forkortelsen er den formen som forekommer oftest (_DNA; deoksyribonukleinsyre_). Den fullstendige formen skal da føres opp som synonym.

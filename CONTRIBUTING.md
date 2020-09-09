@@ -1,4 +1,5 @@
-# specification-template
+# Termlosen
+
 For å bidra til utviklingen av denne standarden, må du clone den til din datamaskin og opprette en pull request.
 
 ### Clone til din datamaskin
@@ -10,12 +11,12 @@ For at det følgende skal virke på din maskin, må du ha programvare installert
  Dersom du bruker Atom kan du gjøre som følger:  
   - Trykk `Ctrl+Shift+P`
   - Skriv `GitHub: Clone` og trykk Enter
-  - I Clone from legger du inn følgende url `https://github.com/Informasjonsforvaltning/specification-template.git`
+  - I Clone from legger du inn følgende url `https://ghttps://github.com/Informasjonsforvaltning/termlosen.git`
 
 Alternativt i kommando-linje:
 ```
-% git clone https://github.com/Informasjonsforvaltning/specification-template.git
-% cd specification-template
+% git clone https://github.com/Informasjonsforvaltning/termlosen.git
+% cd termlosen
 % atom .                                # dersom du har installert Atom
 ```
 ### Gjøre endringer
@@ -35,7 +36,7 @@ En typisk git-arbeidsflyt vil være som følger:
 ```
 Dersom du bruker Atom har du støtte for alt dette i Git-panelet.
 
-Gå til https://github.com/Informasjonsforvaltning/specification-template/pulls og opprett `New pull request`
+Gå til https://github.com/Informasjonsforvaltning/termlosen/pulls og opprett `New pull request`
 
 #### Forhåndsvise
 Dersom du bruker [Atom editor](https://atom.io/) kan du installere pakken [AsciiDoc Assistant Package](https://atom.io/packages/asciidoc-assistant).
