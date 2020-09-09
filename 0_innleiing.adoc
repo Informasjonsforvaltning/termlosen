@@ -1,0 +1,34 @@
+== Innleiing
+
+Dette heftet byggjer på dei internasjonale standardane ISO 704, 860 og 10241 (dei fullstendige titlane er førde opp [.line-through]#på sidene 45–46)# [under <<Referanser til aktuelle standarder>>] og gjev dei grunnleggjande opplysningane som er nødvendige for at eit terminologiprosjekt skal bli vellukka. Heftet vender seg difor til alle arbeidsgrupper som har terminologiarbeid som oppgåve. Heftet inneheld praktiske døme på korleis ein skriv definisjonar som byg­ gjer på ein skikkeleg terminologisk analyse, men det kan ikkje fylle plassen til ein røynd *terminolog*. Ein bør ta kontakt med røynde terminologar når det er mogeleg, særleg i dei innleiande stadia av terminologiarbeidet.
+
+Treng du opplysningar om og hjelp til terminologiarbeid, kan du kontakte Språkrådet eller ein av dei andre medlemsorganisasjonane i <<Nordterms organisasjoner, Nordterm>> [.line-through]#(sjå s. 44)#.
+
+Språkrådet +
+Postboks 1573 Vika +
+NO­-0118 Oslo +
+Tlf.: 22 54 19 50 +
+E­post:	post@sprakradet.no  +
+Nettadresse: https://www.sprakradet.no/[www.språkrådet.no]
+
+Det internasjonale senteret for terminologiinformasjon (Infoterm) kan skaffe deg namn og adresse til røynde terminologar i andre land om du ber om det. Då kontaktar du:
+
+International Information Centre for Terminology (Infoterm) +
+c/o CO SPACE +
+Gumpendorfer Strasse 65/1 +
+AT-­1060 Wien +
+Austerrike +
+Nettadresse: http://www.infoterm.info/[www.infoterm.info]
+
+Dei terminologiske arbeidsmetodane og prinsippa som er omtala i dette heftet, byggjer direkte på røynsle frå praktisk terminologi­arbeid. Døma som blir nytta, er nokså allmenne og er med vilje for­ enkla så det vesentlege skal komme tydeleg fram.
+
+Før ei arbeidsgruppe tek til å utarbeide ei termliste, er det viktig at gruppa kjenner til dei prinsippa som er omtala i kapitla 1–4. Den framgangsmåten ein bør følgje når ein skal utarbeide ei termliste, er nærare forklart i kapittel <<kap5, 5>> og <<kap6, 6>>. Framgangsmåten kan kort saman­ fattast slik:
+
+* identifisere omgrep
+* utarbeide omgrepssystem
+* skrive definisjonar
+* velje ut og danne termar
+
+I praksis utfører ein ofte desse stega på same tid.
+
+Om ein følgjer denne framgangsmåten, vil arbeidet kunne organiserast meir effektivt sidan framgangsmåten er i samsvar med prinsippa for kvalitetssikring.

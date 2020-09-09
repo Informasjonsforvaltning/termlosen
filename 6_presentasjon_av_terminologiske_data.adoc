@@ -1,0 +1,58 @@
+== 6 Presentasjon av terminologiske data (terminografi) [[kap6]]
+
+
+=== 6.1 Term og definisjon [[kap6.1]]
+
+Følgende gjelder for termer og definisjoner:
+
+. Både term og innledende ord i definisjonen skal stå i entall, med mindre begrepet som skal defineres, betegnes med et flertallsord (f.eks. _finansielle midler_).
+. Termen skal stå i ubestemt form entall om det ikke er særskilte grunner til noe annet. Definisjonen skal ikke begynne med ubestemt eller bestemt artikkel om det ikke er særskilte grunner til det.
+. Termen og definisjonen skal i sin helhet skrives med små bokstaver (selvfølgelig med unntak for egennavn). Definisjonen avsluttes uten punktum.
+. Definisjonen skal ikke begynne med formuleringer som «term som benyttes til ...», «term som betegner ...», «begrep som uttrykker ...», «begrep dannet av ...», «x er ...» eller «x betyr ...».
+. Hvis definisjonen er hentet fra et normativt dokument, skal det vises til kilden.
+. Det er bare anbefalte termer, det vil si termer som anbefales brukt for et visst begrep, som skal benyttes i definisjoner.
+. Termer som er definert i termlista, skal merkes typografisk, for eksempel med halvfet eller kursivert stil, når de benyttes i andre definisjoner i termlista.
+
+=== 6.2 Termposten [[kap6.2]]
+
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
+|===
+|Resultatet av terminologiarbeid presenteres i *termposter*. Hver termpost inneholder opplysninger om bare ett begrep. Dersom en term betegner flere begreper, skal begrepene beskrives i hver sin termpost.
+|===
+{set:cellbgcolor!}
+
+Med henblikk på standardisering skal en termpost inneholde minst følgende opplysninger:
+
+* nummer på termposten
+* anbefalt term
+* definisjon av begrepet
+
+[grid=none]
+|===
+|Eksempel på en termpost fra standardiseringsarbeid (bare den norske delen av termposten i NS‑EN 45020:2006):
+a|[no-bullet]
+* 1.3 +
+*standardiseringsområde* +
+gruppe beslektede *standardiseringsemner* (1.2)
+* MERKNAD: Som eksempler på standardiseringsområder kan nevnes ingeniørarbeid, transport, jordbruk samt størrelser og enheter.
+|===
+
+Ytterligere opplysninger kan tilføyes og presenteres i henhold til ISO 10241.
+
+{set:cellbgcolor:#DAE3F3}
+[frame=none, grid=none]
+|===
+|Termlister bør alltid utarbeides på en strukturert måte, uansett hvilket termpostformat som velges.  Ulike opplysninger må registreres hver for seg på bestemte plasser. Slike plasser kalles _felt_ og har sitt eget symbol, for eksempel ”nbTE”, som betyr ’bokmålsterm’.
+|===
+{set:cellbgcolor!}
+
+Opplysninger registreres hver for seg ikke minst for at det senere skal være mulig å behandle dem automatisk, eksempelvis ved konvertering fra ett termpostformat til et annet, ved overføring av materiale til en termbase eller ved uttrekking av enkelte opplysninger, for eksempel engelske termer til et engelsk register.
+
+=== 6.3 Termpostenes rekkefølge [[kap6.3]]
+
+Termposter skal helst ha en systematisk oppstilling i en termliste om det er mulig. Det er imidlertid også mulig å benytte en alfabetisk eller blandet oppstilling. Slike oppstillinger er ofte lettere å finne fram i. Se ISO 10241.
+
+=== 6.4 Datamaskinell støtte [[kap6.4]]
+
+Ved mindre prosjekter kan det være tilstrekkelig å registrere og presentere terminologiske data ved hjelp av elektroniske tekstbehandlingsprogrammer (f.eks. med tabellfunksjonen), regneark, registreringsprogrammer eller enklere databaseprogrammer. Ved større og mer omfattende prosjekter bør man overveie å benytte mer avanserte terminologihåndteringssystemer (se også ISO 16162).
