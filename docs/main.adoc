@@ -18,8 +18,12 @@ image::logoene.png[width=50%, pdfwidth=30vw]
 :imagesdir:
 
 *Publisert*: 8. september 2020 +
+*Oppdatert*: 17. desember 2020 +
 *Status*: Gjeldende
 
+[TIP]
+*Tilgjengelig nettkurs*: +
+Nettkurset https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-et-innforingskurs-i-terminologi-og-begrepsarbeid[Begrip begrepene!] er basert på denne standarden. Kurset gir en enkel innføring i begrepsanalyse, definisjonsskriving, termdanning og termvalg.
 
 [TIP]
 *Nedlasting av dokumentet*: +
