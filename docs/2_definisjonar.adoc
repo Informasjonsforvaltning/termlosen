@@ -89,11 +89,11 @@ I partitive omgrepssystem kjem ein relasjon mellom overomgrepet og underomgrepet
 [grid=none, cols="1,20"]
 |===
 2+|Døme:
-|  1 | *saks*
+|  1. | *saks*
 | | klippereiskap som har to *saksblad* som er føydde saman på midten og dannar ei X-form når dei blir opna, og klipper når dei går saman
 | | *saksblad* +
 flatt blad av metall som har egg på den eine sida og ringforma handtak for finger i den eine enden
-|  2 | *år*
+|  2. | *år*
 | | tidsrom som (meir eller mindre nøyaktig) svarer til krinsløpet til jorda rundt sola
 | | *årstid*
 | | del av *år* som er karakterisert ved vêr-, vekst- og naturforhold av same slaget
@@ -104,11 +104,11 @@ Når det ligg føre ein assosiativ relasjon, tek innhaldsdefinisjonen vanlegvis 
 [grid=none, cols="1,8,1,8"]
 |===
 2+|Døme:||
-|1|*ved*|←|*vedkasse*
+|1.|*ved*|←|*vedkasse*
 ||trevyrke til brensel||behaldar til *ved*
-|2|*tømmer*|←|*tømmerhus*
+|2.|*tømmer*|←|*tømmerhus*
 ||trestammer til byggjevyrke eller foredling||hus bygd av tømmer
-|3|*fyrstikkvyrke*|→|*fyrstikk*
+|3.|*fyrstikkvyrke*|→|*fyrstikk*
 ||rundvyrke til framstilling av *fyrstikker*||trestikke med tennsats som fatar ved gniding
 |===
 

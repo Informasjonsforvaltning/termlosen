@@ -17,11 +17,13 @@ image::logoene.png[width=50%, pdfwidth=30vw]
 
 :imagesdir:
 
-*Publisert*: under publisering +
-*Status*: under publisering
+*Publisert*: 8. september 2020 +
+*Oppdatert*: 17. desember 2020 +
+*Status*: Gjeldende
 
-WARNING: Denne er under publisering, justeringer kan komme. +
-Gjeldende versjon vil bli publisert til https://data.norge.no/specification/termlosen/.
+[TIP]
+*Tilgjengelig nettkurs*: +
+Nettkurset https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-et-innforingskurs-i-terminologi-og-begrepsarbeid[Begrip begrepene!] er basert på denne standarden. Kurset gir en enkel innføring i begrepsanalyse, definisjonsskriving, termdanning og termvalg.
 
 [TIP]
 *Nedlasting av dokumentet*: +
