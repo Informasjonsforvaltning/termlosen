@@ -28,7 +28,7 @@ Nettkurset https://laeringsplattformen.difi.no/kurs/971527404/begrip-begrepene-e
 [TIP]
 *Nedlasting av dokumentet*: +
 Den trykte utgaven av Termlosen kan https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[bestilles eller lastes ned som PDF fra Språkrådet]. +
-Denne nettutgaven kan også lastes ned link:termlosen.pdf[som PDF].
+Denne nettutgaven kan også lastes ned link:files/termlosen.pdf[som PDF].
 
 NOTE: *Innmelding av feil og mangler*: +
 Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/termlosen/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
