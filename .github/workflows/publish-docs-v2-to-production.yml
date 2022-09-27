@@ -19,11 +19,17 @@ jobs:
         with:
           ref: v1
 
-      - name: Build html
+      - name: Build html nn
         id: adocbuild
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor -D docs -o index.html -a lang=nn docs/main.adoc"
+          program: "asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc"
+
+      - name: Build html nb
+        id: adocbuild
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc"
 
       - name: Build pdf
         id: adocbuild_pdf
@@ -41,7 +47,8 @@ jobs:
           host: "https://fellesdatakatalog.digdir.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
           files: |
-            docs/index.html text/html nn
+            docs/termlosen-nb.html text/html nb
+            docs/termlosen-nn.html text/html nn
             docs/files/termlosen.pdf application/pdf nn files/termlosen.pdf
             docs/images/logoene.png image/png nn images/logoene.png
             docs/images/Sprakradet_logo.jpg image/jpeg nn images/Sprakradet_logo.jpg
