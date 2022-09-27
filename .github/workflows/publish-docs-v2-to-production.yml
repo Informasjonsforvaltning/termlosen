@@ -20,13 +20,13 @@ jobs:
           ref: v1
 
       - name: Build html nn
-        id: adocbuild
+        id: adocbuild_nn
         uses: avattathil/asciidoctor-action@master
         with:
           program: "asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc"
 
       - name: Build html nb
-        id: adocbuild
+        id: adocbuild_nb
         uses: avattathil/asciidoctor-action@master
         with:
           program: "asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc"
