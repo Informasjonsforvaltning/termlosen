@@ -7,6 +7,7 @@ Heidi Suonuuti
 :docinfo:
 :icons: font
 :toc: left
+ifdef::backend-pdf[:toc: macro]
 :toc-title: Innhald
 :toclevels: 3
 :sectanchors:
@@ -18,8 +19,10 @@ image::logoene.png[width=50%, pdfwidth=30vw]
 :imagesdir:
 
 *Publisert*: 8. september 2020 +
-*Oppdatert*: 17. desember 2020 +
-*Status*: Gjeldende
+*Oppdatert*: 13. februar 2023 (kun layoutmessige justeringer) +
+*Status*: Gjeldende + 
+*Gjeldende versjon*: https://data.norge.no/specification/termlosen +
+*Redaktørens utkast*: https://informasjonsforvaltning.github.io/termlosen/ 
 
 [TIP]
 *Tilgjengelig nettkurs*: +
@@ -34,6 +37,8 @@ NOTE: *Innmelding av feil og mangler*: +
 Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/termlosen/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
 
 Dette er en nettutgave av https://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/[den trykte utgaven av Termlosen fra Språkrådet]. Ved eventuelle uoverensstemmelser av innholdet mellom utgavene, gjelder den trykte utgaven fra Språkrådet. Sidereferanser i den trykte utgaven er beholdt i denne nettutgaven, men med [.line-through]#gjennomstrekning# ev. kombinert med ny tekst i klammeparentes, f.eks. `[.line-through]#på side ...# [under ...]`.
+
+toc::[]
 
 // Innhold her:
 
