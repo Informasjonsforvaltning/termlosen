@@ -1,4 +1,4 @@
-name: build adocs and publish v1 to production
+name: Build adocs and publish v1 to production
 
 on:
   push:
@@ -38,20 +38,19 @@ jobs:
           program: "asciidoctor-pdf -D docs -o files/termlosen.pdf -a lang=nn docs/main.adoc"
         continue-on-error: true
 
-      - name: Upload rdf to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.1.0
-        id: upload-rdf
+      - name: Upload files to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
+        id: upload-files
         with:
           ontology-type: "specification"
           ontology: "termlosen"
-          host: "https://fellesdatakatalog.digdir.no"
+          host: "https://data.norge.no"
           api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
           files: |
             docs/termlosen-nb.html text/html nb
             docs/termlosen-nn.html text/html nn
             docs/files/termlosen.pdf application/pdf nn files/termlosen.pdf
             docs/images/logoene.png image/png nn images/logoene.png
-            docs/images/Sprakradet_logo.jpg image/jpeg nn images/Sprakradet_logo.jpg
             docs/images/Fig1.png image/png nn images/Fig1.png
             docs/images/Fig2.png image/png nn images/Fig2.png
             docs/images/Fig3.png image/png nn images/Fig3.png
