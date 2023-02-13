@@ -19,7 +19,7 @@ image::logoene.png[width=50%, pdfwidth=30vw]
 :imagesdir:
 
 *Publisert*: 8. september 2020 +
-*Oppdatert*: 13. februar 2023 (kun layoutmessige justeringer) +
+*Oppdatert*: 13. februar 2023 (kun layoutmessige justeringer)  +
 *Status*: Gjeldende + 
 *Gjeldende versjon*: https://data.norge.no/specification/termlosen +
 *Redaktørens utkast*: https://informasjonsforvaltning.github.io/termlosen/ 
