@@ -1,0 +1,62 @@
+name: Build adocs and publish v1 to production
+
+on:
+  push:
+    branches:
+      - v1
+    paths:
+      - docs/**
+  workflow_dispatch:
+
+jobs:
+  adoc_build:
+    runs-on: ubuntu-latest
+    name: asciidoctor build
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: v1
+
+      - name: Build html nn
+        id: adocbuild_nn
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc"
+
+      - name: Build html nb
+        id: adocbuild_nb
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc"
+
+      - name: Build pdf
+        id: adocbuild_pdf
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor-pdf -D docs -o files/termlosen.pdf -a lang=nn docs/main.adoc"
+        continue-on-error: true
+
+      - name: Upload files to static-rdf-server
+        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
+        id: upload-files
+        with:
+          ontology-type: "specification"
+          ontology: "termlosen"
+          host: "https://data.norge.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+          files: |
+            docs/termlosen-nb.html text/html nb
+            docs/termlosen-nn.html text/html nn
+            docs/files/termlosen.pdf application/pdf nn files/termlosen.pdf
+            docs/images/logoene.png image/png nn images/logoene.png
+            docs/images/Fig1.png image/png nn images/Fig1.png
+            docs/images/Fig2.png image/png nn images/Fig2.png
+            docs/images/Fig3.png image/png nn images/Fig3.png
+            docs/images/Fig4.png image/png nn images/Fig4.png
+            docs/images/Fig5.png image/png nn images/Fig5.png
+            docs/images/Fig6.png image/png nn images/Fig6.png
+            docs/images/Fig7.png image/png nn images/Fig7.png
+            docs/images/Fig8.png image/png nn images/Fig8.png
+            docs/images/Fig9.png image/png nn images/Fig9.png
