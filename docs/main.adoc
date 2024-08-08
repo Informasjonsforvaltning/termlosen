@@ -10,7 +10,7 @@ Heidi Suonuuti
 ifdef::backend-pdf[:toc: macro]
 :toc-title: Innhald
 :toclevels: 3
-:sectanchors:
+:sectlinks:
 :imagesdir: images
 :title-logo-image: image:logoene.png[pdfwidth=30vw]
 
