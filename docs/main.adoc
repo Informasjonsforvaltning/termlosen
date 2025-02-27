@@ -73,4 +73,4 @@ include::v4_termleia.adoc[]
 
 //
 
-include::shared/stats.adoc[]
+//include::shared/stats.adoc[]
