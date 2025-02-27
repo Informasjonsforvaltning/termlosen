@@ -71,6 +71,5 @@ include::v3_referanser_til_aktuelle_standarder.adoc[]
 
 include::v4_termleia.adoc[]
 
-//
-
-include::shared/stats.adoc[]
+// Analytics
+include::shared/analytics.adoc[]
