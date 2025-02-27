@@ -14,7 +14,15 @@ jobs:
     name: asciidoctor build
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update submodules to latest main
+        run: |
+          git submodule foreach --recursive git fetch origin
+          git submodule foreach --recursive git checkout origin/main
 
       - name: Build html nn
         id: adocbuild_nn
@@ -30,7 +38,7 @@ jobs:
         continue-on-error: true
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs

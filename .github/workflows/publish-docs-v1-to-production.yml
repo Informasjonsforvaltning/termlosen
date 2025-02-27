@@ -15,19 +15,26 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: v1
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update submodules to latest main
+        run: |
+          git submodule foreach --recursive git fetch origin
+          git submodule foreach --recursive git checkout origin/main
 
       - name: Build html nn
         id: adocbuild_nn
-        uses: avattathil/asciidoctor-action@master
+        uses: tonynv/asciidoctor-action@master
         with:
           program: "asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc"
 
       - name: Build html nb
         id: adocbuild_nb
-        uses: avattathil/asciidoctor-action@master
+        uses: tonynv/asciidoctor-action@master
         with:
           program: "asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc"
 
