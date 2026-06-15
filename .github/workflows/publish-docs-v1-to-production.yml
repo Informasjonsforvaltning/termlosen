@@ -12,61 +12,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  adoc_build:
-    runs-on: ubuntu-latest
-    name: asciidoctor build
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-        with:
-          ref: v1
-          submodules: true
-          fetch-depth: 0
-
-      - name: Update submodules to latest main
-        run: |
-          git submodule foreach --recursive git fetch origin
-          git submodule foreach --recursive git checkout origin/main
-
-      - name: Build html nn
-        id: adocbuild_nn
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc"
-
-      - name: Build html nb
-        id: adocbuild_nb
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc"
-
-      - name: Build pdf
-        id: adocbuild_pdf
-        uses: Analog-inc/asciidoctor-action@master
-        with:
-          shellcommand: "asciidoctor-pdf -D docs -o files/termlosen.pdf -a lang=nn docs/main.adoc"
-        continue-on-error: true
-
-      - name: Upload files to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@84beeeacd364f310ef6a253bc079354cdf62e5dd
-        id: upload-files
-        with:
-          ontology-type: "specification"
-          ontology: "termlosen"
-          host: "https://data.norge.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-          files: |
-            docs/termlosen-nb.html text/html nb
-            docs/termlosen-nn.html text/html nn
-            docs/files/termlosen.pdf application/pdf nn files/termlosen.pdf
-            docs/images/logoene.png image/png nn images/logoene.png
-            docs/images/Fig1.png image/png nn images/Fig1.png
-            docs/images/Fig2.png image/png nn images/Fig2.png
-            docs/images/Fig3.png image/png nn images/Fig3.png
-            docs/images/Fig4.png image/png nn images/Fig4.png
-            docs/images/Fig5.png image/png nn images/Fig5.png
-            docs/images/Fig6.png image/png nn images/Fig6.png
-            docs/images/Fig7.png image/png nn images/Fig7.png
-            docs/images/Fig8.png image/png nn images/Fig8.png
-            docs/images/Fig9.png image/png nn images/Fig9.png
+  upload-files-to-production:
+    name: Upload specification to static-rdf-server
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/v1'
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      ref: v1
+      program_html: |
+        asciidoctor -D docs -o termlosen-nn.html -a lang=nn docs/main.adoc
+        asciidoctor -D docs -o termlosen-nb.html -a lang=nb docs/main.adoc
+      program_pdf: |
+        asciidoctor-pdf -D docs -o files/termlosen.pdf -a lang=nn docs/main.adoc
+      program_pdf_continue_on_error: true
+      host: https://data.norge.no
+      ontology: termlosen
+      ontology-type: specification
+      files: |
+        docs/termlosen-nb.html text/html nb
+        docs/termlosen-nn.html text/html nn
+        docs/files/termlosen.pdf application/pdf nn files/termlosen.pdf
+        docs/images/logoene.png image/png nn images/logoene.png
+        docs/images/Fig1.png image/png nn images/Fig1.png
+        docs/images/Fig2.png image/png nn images/Fig2.png
+        docs/images/Fig3.png image/png nn images/Fig3.png
+        docs/images/Fig4.png image/png nn images/Fig4.png
+        docs/images/Fig5.png image/png nn images/Fig5.png
+        docs/images/Fig6.png image/png nn images/Fig6.png
+        docs/images/Fig7.png image/png nn images/Fig7.png
+        docs/images/Fig8.png image/png nn images/Fig8.png
+        docs/images/Fig9.png image/png nn images/Fig9.png
+    secrets:
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
